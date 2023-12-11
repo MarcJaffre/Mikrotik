@@ -20,3 +20,10 @@ Pour accéder au routeur depuis WinBox, il faut faire le processus de configurat
 - Définir un mot de passe
 ```
 <br />
+
+### B. Remise à zéro
+Depuis le panel Web, aller dans `System > Reset Configuration`. (No Defaults Configuration, Do Not Backup)
+```
+/system reset-configuration no-defaults=yes skip-backup=yes
+```
+<br />
