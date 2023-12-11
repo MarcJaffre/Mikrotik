@@ -6,13 +6,6 @@
 
 
 
-### B. Remise à zéro
-Depuis le panel Web, aller dans `System > Reset Configuration`. (No Defaults Configuration, Do Not Backup)
-```
-/system reset-configuration no-defaults=yes skip-backup=yes
-```
-<br />
-
 
 <br />
 
