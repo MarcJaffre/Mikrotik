@@ -7,27 +7,32 @@
 Utiliser le paramètre / pour être sûre que la commande se passe à la racine et pas dans le menu actuellement
 ```
 
-
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## II. Configuration de base
 ### A. Premier démarrage
-L'identifiant est `admin` et aucun mot de passe est par défaut.
+Pour accéder au routeur depuis WinBox, il faut faire le processus de configuration du premier démarrage.
+```
+- Identifiant  : admin
+- Mot de passe : <aucun>
 
-- `Do you want to see the software license? [Y/n]:` N
-  
+- Do you want to see the software license? [Y/n]: N
 - Définir un mot de passe
+```
+<br />
 
 ### B. Remise à zéro
 ```
 /system reset-configuration no-defaults=yes skip-backup=yes
 ```
 
-### X . Lister les interfaces (NAME, TYPE, MTU, MAC)
+### C . Lister les interfaces (NAME, TYPE, MTU, MAC)
+Depuis le panel Web, aller dans  `Interfaces`.
 ```
 /interface print
 ```
 
 ### X . Afficher la configuration des interfaces.
+Depuis le panel Web, aller dans  `IP > Addresses`.
 ```
 /ip address/print
 ```
@@ -36,14 +41,18 @@ L'identifiant est `admin` et aucun mot de passe est par défaut.
 Le pont `local` aura l'interface `ether1` accrochée sur celui-ci.
 
 #### 1. Création d'un Pont
+Depuis le panel Web, aller dans  `Bridge`.
 ```
 /interface bridge add name=local
 ```
 #### 2. Attribuer un port Ethernet au pont
+Depuis le panel Web, aller dans  `Bridge > Ports`.
 ```
 /interface bridge port add interface=ether2 bridge=local
 ```
+
 #### 3. Définir une IP statique à l'interface
+Depuis le panel Web, aller dans  `IP > Addresses`.
 ```
 /ip address add address=192.168.200.1/24 interface=local
 ```
