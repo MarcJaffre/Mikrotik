@@ -1,15 +1,15 @@
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# <p align='center'> Configuration de base d'un équipement Mikrotik </p>
+## <p align='center'> Configuration de base d'un équipement Mikrotik </p>
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-## I. Présentation
+### I. Présentation
 ```
 Utiliser le paramètre / pour être sûre que la commande se passe à la racine et pas dans le menu actuellement
 ```
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-## II. Configuration de base
-### A. Premier démarrage
+### II. Configuration de base
+#### A. Premier démarrage
 Pour accéder au routeur depuis WinBox, il faut faire le processus de configuration du premier démarrage.
 ```
 
@@ -21,7 +21,7 @@ Pour accéder au routeur depuis WinBox, il faut faire le processus de configurat
 ```
 <br />
 
-### B. Remise à zéro
+#### B. Remise à zéro
 Depuis le panel Web, aller dans `System > Reset Configuration`. (No Defaults Configuration, Do Not Backup)
 ```
 /system reset-configuration no-defaults=yes skip-backup=yes
