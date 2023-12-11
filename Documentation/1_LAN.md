@@ -29,23 +29,26 @@ Depuis le panel Web, aller dans  `IP > Addresses`.
 
 ### X . Configurer l'interface LAN (Pont)
 Le pont `local` aura l'interface `ether2` accrochée sur celui-ci.
-
 #### 1. Création d'un Pont
 Depuis le panel Web, aller dans  `Bridge`.
 ```
 /interface bridge add name=local
 ```
+<br />
+
 #### 2. Attribuer un port Ethernet au pont
 Depuis le panel Web, aller dans  `Bridge > Ports`.
 ```
 /interface bridge port add interface=ether2 bridge=local
 ```
+<br />
 
 #### 3. Définir une IP statique à l'interface
 Depuis le panel Web, aller dans  `IP > Addresses`.
 ```
 /ip address add address=192.168.200.1/24 interface=local
 ```
+<br />
 
 #### 4 . Configurer un serveur DHCP
 Pour accder au menu de configuration depuis la WebUI : `Ip -> DHCP Server` 
