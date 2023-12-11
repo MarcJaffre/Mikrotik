@@ -13,7 +13,7 @@ Depuis le panel Web, aller dans  `Interfaces`.
 /interface print
 ```
 ![image](https://github.com/Drthrax74/Mikrotik/assets/35907/1a858d79-5561-4730-9606-3b052cfc2a88)
-<br />
+<br /><br />
 
 
 
@@ -23,8 +23,7 @@ Depuis le panel Web, aller dans  `IP > Addresses`.
 /ip address/print
 ```
 ![image](https://github.com/Drthrax74/Mikrotik/assets/35907/bebc84ea-b977-45ba-b12c-f84682c0b55c)
-<br />
-
+<br /><br />
 
 
 
