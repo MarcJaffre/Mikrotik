@@ -22,7 +22,7 @@ Depuis le panel Web, aller dans  `IP > Addresses`.
 
 
 ### X . Configurer l'interface LAN (Pont)
-Le pont `local` aura l'interface `ether1` accrochée sur celui-ci.
+Le pont `local` aura l'interface `ether2` accrochée sur celui-ci.
 
 #### 1. Création d'un Pont
 Depuis le panel Web, aller dans  `Bridge`.
