@@ -29,14 +29,59 @@ L'identifiant est `admin` et aucun mot de passe est par défaut.
 
 ### X . Afficher la configuration des interfaces.
 ```
-/ip dhcp-client/print
+/ip address/print
 ```
 
-### X . Configurer une interface 
+### X . Configurer l'interface LAN (Pont)
+Le pont `local` aura l'interface `ether1` accrochée sur celui-ci.
+
+#### 1. Création d'un Pont
+```
+/interface bridge add name=local
+```
+#### 2. Attribuer un port Ethernet au pont
+```
+/interface bridge port add interface=ether2 bridge=local
+```
+#### 3. Définir une IP statique à l'interface
+```
+/ip address add address=192.168.200.1/24 interface=local
+```
+
+#### 4 . Configurer un serveur DHCP
+Pour accder au menu de configuration depuis la WebUI : `Ip -> DHCP Server` 
+```
+/ip dhcp-server setup
+ > DHCP server interface: local
+ > DHCP address space: 192.168.200.0/24
+ > Gateway for dhcp network: 192.168.200.1
+ > Addresses to give out: 192.168.88.2-192.168.88.254 [enter]
+ > Dns servers: 192.168.200.1
+ > lease time: 1800
+
+ >  window, DHCP
+```
+
+### X . Configurer l'interface WAN
 Définir une IP Statique à l'interface `ether1`.
+#### 1. Désactiver le mode Client DHCP 
+```
+/ip dhcp-client add disabled=no interface=ether1
+```
+#### 2. Définiur une IP Statique
 ```
 /ip address add address=192.168.0.245/24 interface=ether1
 ```
+#### 3. Définir une passerelle
+```
+/ip route add gateway=192.168.0.1
+```
+#### 4. Définir un serveur DNS
+```
+/ip dns set servers=192.168.0.1
+```
+
+
 
 ### X . XXXXXX
 ```
@@ -46,6 +91,6 @@ Définir une IP Statique à l'interface `ether1`.
 ```
 ```
 
-
-
-
+### X . XXXXXX
+```
+```
