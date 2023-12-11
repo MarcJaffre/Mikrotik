@@ -12,7 +12,10 @@ Depuis le panel Web, aller dans  `Interfaces`.
 ```
 /interface print
 ```
+![image](https://github.com/Drthrax74/Mikrotik/assets/35907/1a858d79-5561-4730-9606-3b052cfc2a88)
+
 <br />
+
 
 ### B . Afficher la configuration actuelle
 Depuis le panel Web, aller dans  `IP > Addresses`.
