@@ -60,7 +60,5 @@ Pour accder au menu de configuration depuis la WebUI : `Ip -> DHCP Server`
  > Addresses to give out: 192.168.88.2-192.168.88.254 [enter]
  > Dns servers: 192.168.200.1
  > lease time: 1800
-
- >  window, DHCP
 ```
 <br />
