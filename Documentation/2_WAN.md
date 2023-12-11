@@ -3,3 +3,50 @@
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ##
+
+
+
+### B. Remise à zéro
+Depuis le panel Web, aller dans `System > Reset Configuration`. (No Defaults Configuration, Do Not Backup)
+```
+/system reset-configuration no-defaults=yes skip-backup=yes
+```
+<br />
+
+
+<br />
+
+
+### X . Configurer l'interface WAN
+Définir une IP Statique à l'interface `ether1`.
+#### 1. Désactiver le mode Client DHCP 
+```
+/ip dhcp-client add disabled=no interface=ether1
+```
+#### 2. Définiur une IP Statique
+```
+/ip address add address=192.168.0.245/24 interface=ether1
+```
+#### 3. Définir une passerelle
+```
+/ip route add gateway=192.168.0.1
+```
+#### 4. Définir un serveur DNS
+```
+/ip dns set servers=192.168.0.1
+```
+<br />
+
+
+
+### X . XXXXXX
+```
+```
+
+### X . XXXXXX
+```
+```
+
+### X . XXXXXX
+```
+```
