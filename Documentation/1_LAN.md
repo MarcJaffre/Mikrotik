@@ -16,6 +16,7 @@ Depuis le panel Web, aller dans  `Interfaces`.
 <br />
 
 
+
 ### B . Afficher la configuration actuelle
 Depuis le panel Web, aller dans  `IP > Addresses`.
 ```
@@ -23,6 +24,11 @@ Depuis le panel Web, aller dans  `IP > Addresses`.
 ```
 ![image](https://github.com/Drthrax74/Mikrotik/assets/35907/bebc84ea-b977-45ba-b12c-f84682c0b55c)
 <br />
+
+
+
+
+
 
 
 ### X . Configurer l'interface LAN (Pont)
