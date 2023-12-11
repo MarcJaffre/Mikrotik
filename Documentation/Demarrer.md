@@ -18,12 +18,15 @@ L'identifiant est `admin` et aucun mot de passe est par défaut.
 /system reset-configuration no-defaults=yes skip-backup=yes
 ```
 
-### X . XXXXXX
+### X . Lister les interfaces
 ```
+/interface print
 ```
 
-### X . XXXXXX
+### X . Configurer l'interface
+Définir une IP Statique à l'interface `ether1`.
 ```
+/ip address add address=192.168.0.245/24 interface=ether1
 ```
 
 ### X . XXXXXX
