@@ -17,19 +17,14 @@ Depuis le panel Web, aller dans  `Interfaces`.
 <br />
 <br />
 
-
-
 ### B . Afficher la configuration actuelle
 Depuis le panel Web, aller dans  `IP > Addresses`.
 ```
 /ip address/print
 ```
 <p align='center'> <img src='https://github.com/Drthrax74/Mikrotik/assets/35907/bebc84ea-b977-45ba-b12c-f84682c0b55c' /> </p>
-<br /><br />
-
-
-
-
+<br />
+<br />
 
 
 ### X . Configurer l'interface LAN (Pont)
