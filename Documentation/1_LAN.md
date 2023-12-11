@@ -8,12 +8,11 @@
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## II. Configuration de l'interface LAN
 ### A. Lister les interfaces
-<p align='center'> <img src='https://github.com/Drthrax74/Mikrotik/assets/35907/1a858d79-5561-4730-9606-3b052cfc2a88' /> </p>
-
 Depuis le panel Web, aller dans  `Interfaces`.
 ```
 /interface print
 ```
+<p align='center'> <img src='https://github.com/Drthrax74/Mikrotik/assets/35907/1a858d79-5561-4730-9606-3b052cfc2a88' /> </p>
 
 <br />
 <br />
