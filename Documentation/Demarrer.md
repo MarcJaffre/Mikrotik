@@ -6,7 +6,38 @@
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## II. Configuration de base
-### A. Remise à zéro
+### A. Premier démarrage
+L'identifiant est `admin` et aucun mot de passe est par défaut.
+
+- `Do you want to see the software license? [Y/n]:` N
+  
+- Définir un mot de passe
+
+### B. Remise à zéro
 ```
 /system reset-configuration no-defaults=yes skip-backup=yes
 ```
+
+### X . XXXXXX
+```
+```
+
+### X . XXXXXX
+```
+```
+
+### X . XXXXXX
+```
+```
+
+### X . XXXXXX
+```
+```
+
+### X . XXXXXX
+```
+```
+
+
+
+
