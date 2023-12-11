@@ -24,7 +24,7 @@ Depuis le panel Web, aller dans  `IP > Addresses`.
 ```
 /ip address/print
 ```
-![image](https://github.com/Drthrax74/Mikrotik/assets/35907/bebc84ea-b977-45ba-b12c-f84682c0b55c)
+<p align='center'> <img src='https://github.com/Drthrax74/Mikrotik/assets/35907/bebc84ea-b977-45ba-b12c-f84682c0b55c' /> </p>
 <br /><br />
 
 
