@@ -24,18 +24,21 @@ Pour accéder au routeur depuis WinBox, il faut faire le processus de configurat
 ```
 /system reset-configuration no-defaults=yes skip-backup=yes
 ```
+<br />
 
 ### C . Lister les interfaces (NAME, TYPE, MTU, MAC)
 Depuis le panel Web, aller dans  `Interfaces`.
 ```
 /interface print
 ```
+<br />
 
 ### X . Afficher la configuration des interfaces.
 Depuis le panel Web, aller dans  `IP > Addresses`.
 ```
 /ip address/print
 ```
+<br />
 
 ### X . Configurer l'interface LAN (Pont)
 Le pont `local` aura l'interface `ether1` accrochée sur celui-ci.
@@ -56,6 +59,8 @@ Depuis le panel Web, aller dans  `IP > Addresses`.
 ```
 /ip address add address=192.168.200.1/24 interface=local
 ```
+<br />
+
 
 #### 4 . Configurer un serveur DHCP
 Pour accder au menu de configuration depuis la WebUI : `Ip -> DHCP Server` 
@@ -70,6 +75,7 @@ Pour accder au menu de configuration depuis la WebUI : `Ip -> DHCP Server`
 
  >  window, DHCP
 ```
+<br />
 
 ### X . Configurer l'interface WAN
 Définir une IP Statique à l'interface `ether1`.
@@ -89,6 +95,7 @@ Définir une IP Statique à l'interface `ether1`.
 ```
 /ip dns set servers=192.168.0.1
 ```
+<br />
 
 
 
