@@ -24,19 +24,24 @@ Ether2 => LAN
 ```
 
 
-#### C. Configurer l'adresse IP
-Aller dans le menu `IP` puis `Adresses` et cliquer sur `+`.
+#### C. Configurer l'adresse IP 
+##### 1. WAN
+Aller dans le menu `IP` puis `Adresses` et cliquer sur `+`. Ensuite il suffit de supprimer la ligne concernant l'interface `Ether1`.
+
 ```
- > Address   : 192.168.0.200/24
+ > Address   : 192.168.0.245/24
  > Network   : 192.168.0.0
- > Interface : WAN
+ > Interface : LAN
 ```
 
+##### 2. LAN
+Aller dans le menu `IP` puis `Adresses` et cliquer sur `+`.
 ```
  > Address   : 192.168.100.0/24
  > Network   : 192.168.100.0
  > Interface : LAN
 ```
 
+
 #### D. Vérification
-Il suffit de se déconnecter et reconnecter et vérifier dans `IP` puis  `Adresses`.
+Il suffit de se déconnecter et reconnecter et vérifier dans `IP` puis `Adresses`.
