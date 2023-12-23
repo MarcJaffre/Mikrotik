@@ -16,7 +16,7 @@ Définir une IP Statique à l'interface `ether1`.
 ```
 /ip dhcp-client add disabled=no interface=ether1
 ```
-#### 2. Définiur une IP Statique
+#### 2. Définir une IP Statique
 ```
 /ip address add address=192.168.0.245/24 interface=ether1
 ```
