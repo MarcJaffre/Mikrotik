@@ -57,7 +57,7 @@ Pour accder au menu de configuration depuis la WebUI : `Ip -> DHCP Server`
  > DHCP server interface: local
  > DHCP address space: 192.168.200.0/24
  > Gateway for dhcp network: 192.168.200.1
- > Addresses to give out: 192.168.88.2-192.168.88.254 [enter]
+ > Addresses to give out: 192.168.200.2-192.168.200.254 [enter]
  > Dns servers: 192.168.200.1
  > lease time: 1800
 ```
