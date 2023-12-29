@@ -1,0 +1,19 @@
+**VRB**
+```
+- WAN   : 192.168.200.254	ip address/add interface=ether1 address=192.168.200.254 netmask=255.255.255.0   network=192.168.200.0
+- SITE1 : 192.168.220.1/30	ip address/add interface=ether2 address=192.168.220.2   netmask=255.255.255.252 network=192.168.220.0
+- SITE2 : 192.168.240.1/30	ip address/add interface=ether3 address=192.168.240.2   netmask=255.255.255.252 network=192.168.240.0
+```
+
+SITE1
+```
+- WAN : 192.168.220.2/30	ip address/add interface=ether1 address=192.168.220.2   netmask=255.255.255.252 network=192.168.220.0
+- LAN : 192.168.225.2/30	ip address/add interface=ether2 address=192.168.225.1   netmask=255.255.255.0   network=192.168.225.0
+```
+
+SITE2:
+```
+- WAN : 192.168.240.2/30	ip address/add interface=ether3 address=192.168.240.2   netmask=255.255.255.252 network=192.168.240.0
+- LAN : 192.168.245.2/30	ip address/add interface=ether2 address=192.168.245.1   netmask=255.255.255.0   network=192.168.245.0
+```
+
