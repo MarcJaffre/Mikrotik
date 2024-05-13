@@ -8,7 +8,6 @@
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## II. Configuration de l'interface LAN
 ### A. Lister les interfaces
-Depuis le panel Web, aller dans  `Interfaces`.
 ```
 /interface print
 ```
@@ -18,7 +17,6 @@ Depuis le panel Web, aller dans  `Interfaces`.
 <br />
 
 ### B . Afficher la configuration actuelle
-Depuis le panel Web, aller dans  `IP > Addresses`.
 ```
 /ip address/print
 ```
@@ -35,30 +33,26 @@ Depuis le panel Web, aller dans  `Bridge`.
 /interface bridge add name=local
 ```
 <br />
+<br />
 
 #### 2. Attribuer un port Ethernet au pont
-Depuis le panel Web, aller dans  `Bridge > Ports`.
 ```
 /interface bridge port add interface=ether2 bridge=local
 ```
 <br />
+<br />
 
 #### 3. Définir une IP statique à l'interface
-Depuis le panel Web, aller dans  `IP > Addresses`.
 ```
 /ip address remove numbers=0
 /ip address add address=192.168.200.50/24 interface=local
 /ip route add gateway=192.168.200.1
 /ip dns set servers=192.168.200.1
 ```
-<br />
 
-
-#### 4. Supprimer une IP
-Pour supprimer l'adresse IP d'une interface réseau, il faut lister puis supprimer le numéro de ligne.
-```
-```
 ![image](https://github.com/Drthrax74/Mikrotik/assets/35907/0e065d2c-a406-4dca-96cb-6a74f741aa7a)
+<br />
+<br />
 
 
 #### 5 . Configurer un serveur DHCP
