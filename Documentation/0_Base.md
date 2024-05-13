@@ -50,7 +50,16 @@ Depuis le panel Web, aller dans  `IP > Addresses`.
 ```
 <br />
 
-#### 4 . Configurer un serveur DHCP
+
+#### 4. Supprimer une IP
+Pour supprimer l'adresse IP d'une interface réseau, il faut lister puis supprimer le numéro de ligne.
+```
+/ip address remove numbers=<Numéro de ligne>
+```
+![image](https://github.com/Drthrax74/Mikrotik/assets/35907/0e065d2c-a406-4dca-96cb-6a74f741aa7a)
+
+
+#### 5 . Configurer un serveur DHCP
 Pour accder au menu de configuration depuis la WebUI : `Ip -> DHCP Server` 
 ```
 /ip dhcp-server setup
