@@ -27,7 +27,7 @@ Depuis le panel Web, aller dans  `IP > Addresses`.
 <br />
 
 
-### X . Configurer l'interface LAN (Pont)
+### X . Configurer l'interface réseau
 Le pont `local` aura l'interface `ether2` accrochée sur celui-ci.
 #### 1. Création d'un Pont
 Depuis le panel Web, aller dans  `Bridge`.
@@ -46,7 +46,10 @@ Depuis le panel Web, aller dans  `Bridge > Ports`.
 #### 3. Définir une IP statique à l'interface
 Depuis le panel Web, aller dans  `IP > Addresses`.
 ```
-/ip address add address=192.168.200.1/24 interface=local
+/ip address remove numbers=0
+/ip address add address=192.168.200.50/24 interface=local
+/ip route add gateway=192.168.200.1
+/ip dns set servers=192.168.200.1
 ```
 <br />
 
@@ -54,7 +57,6 @@ Depuis le panel Web, aller dans  `IP > Addresses`.
 #### 4. Supprimer une IP
 Pour supprimer l'adresse IP d'une interface réseau, il faut lister puis supprimer le numéro de ligne.
 ```
-/ip address remove numbers=<Numéro de ligne>
 ```
 ![image](https://github.com/Drthrax74/Mikrotik/assets/35907/0e065d2c-a406-4dca-96cb-6a74f741aa7a)
 
