@@ -105,4 +105,12 @@ Menu de sélection `IP` > `Addresses` > `+` .
 
 
 #### B. CAS 2: Avec Pont
+##### 1. Création du Pont
+Menu Sélection `Bridge` > `+` .
+
+##### 2. Attribuer un port physique au pont
+Menu Sélection `Bridge` > `Ports` > `+` et ajout un port physique.
+
+
+<img src='https://github.com/Drthrax74/Mikrotik/assets/35907/5c125b71-a5d5-4f70-8bc9-14db98408eb3' />
 
