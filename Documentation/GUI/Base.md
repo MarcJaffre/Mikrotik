@@ -40,7 +40,7 @@ Menu de sélection `Interfaces` > `EtherX` > `Name: XXXX` > `Apply` .
 ### III. Configuration du WAN
 Si un serveur DHCP est présent, il faudra éteindre l'interface avant puis la configurer.
 
-#### A. Accéder au menu Address List
+#### A. Configurer l'adresse IPv4
 Menu de sélection `IP` > `Addresses` > `+` .
 
 Le champs `Address` doit être une adresse IP en écriture CIDR. (XXX.XXX.XXX.XXX/YY)
@@ -97,4 +97,12 @@ Le `ping 8.8.8.8` permet de vérifier l'interconnexion et le `ping google.fr` la
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### III. Configuration du LAN
+#### A. CAS 1: Sans Pont
+Menu de sélection `IP` > `Addresses` > `+` .
+
+<img src='https://github.com/Drthrax74/Mikrotik/assets/35907/72056b51-7bf3-4587-bbf0-e856d303126a' />
+
+
+
+#### B. CAS 2: Avec Pont
 
