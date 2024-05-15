@@ -50,13 +50,15 @@ Le champs `Interface` sert à sélectionner l'interface sur laquel on souhaite a
 Le champs `Network` sera remplie automatiquement si on entre correctement l'adresse CIDR précédemment. (Optionel)
 
 **WAN**
-
 <img src='https://github.com/Drthrax74/Mikrotik/assets/35907/1cd7218e-7204-4c6e-9f54-a1938f55b17e' />
 
+<br />
 
 <img src='https://github.com/Drthrax74/Mikrotik/assets/35907/acbfa20f-58f0-4fef-a80d-e8dd606cde76' />
 
 <br />
+<br />
+
 
 #### D. Configuration de la route par défaut
 Menu de sélection `IP` > `Routes` > `+` .
@@ -69,21 +71,19 @@ L'adresse `0.0.0.0/0` symbolise l'ensemble des réseaux inconnus (Internet) et l
 
 <img src='https://github.com/Drthrax74/Mikrotik/assets/35907/7990b207-d8a0-45cf-8825-e7932c831afe' />
 
-
-
 <br />
 
 #### E. Définir le serveur DNS du routeur
 Menu de sélection `IP` > `DNS`.
 
 Dans le champs `Servers` indiquer les serveurs DNS. Pour ajouter un autre serveur DNS, il suffit de faire la flèche vers le bas à droite de `Servers`
-
-<img src='https://github.com/Drthrax74/Mikrotik/assets/35907/89de680f-015d-4670-a4ba-353c2f68892c' />
+<img src='https://github.com/Drthrax74/Mikrotik/assets/35907/7aae00c1-52e2-4f6f-963d-a1b5d480a359' />
 
 <br />
 
 <img src='https://github.com/Drthrax74/Mikrotik/assets/35907/c5a1af8f-5819-4fd7-9710-f81549f431da' />
 
+<br />
 <br />
 
 #### F. Vérification du fonctionnement du routeur
