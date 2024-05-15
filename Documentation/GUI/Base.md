@@ -77,7 +77,7 @@ L'adresse `0.0.0.0/0` symbolise l'ensemble des réseaux inconnus (Internet) et l
 
 
 
-
+<img src='https://github.com/Drthrax74/Mikrotik/assets/35907/7aae00c1-52e2-4f6f-963d-a1b5d480a359' />
 
 
 #### C. Définir le serveur DNS du routeur
@@ -86,8 +86,6 @@ Menu de sélection `IP` > `DNS`.
 Dans le champs `Servers` indiquer les serveurs DNS.
 
 Pour ajouter un autre serveur DNS, il suffit de faire la flèche vers le bas à droite de `Servers`
-
-<img src='https://github.com/Drthrax74/Mikrotik/assets/35907/7aae00c1-52e2-4f6f-963d-a1b5d480a359' />
 
 <br />
 
