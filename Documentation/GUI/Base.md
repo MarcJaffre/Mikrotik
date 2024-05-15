@@ -43,6 +43,14 @@ Si un serveur DHCP est présent, il faudra éteindre l'interface avant puis la c
 #### A. Accéder au menu Address List
 Menu de sélection `IP` > `Addresses` > `+` .
 
+Le champs `Address` doit être une adresse IP en écriture CIDR. (XXX.XXX.XXX.XXX/YY)
+
+Le champs `Interface` sert à sélectionner l'interface sur laquel on souhaite appliquer l'adresse IP.
+
+Le champs `Network` sera remplie automatiquement si on entre correctement l'adresse CIDR précédemment. (Optionel)
+
+<br />
+
 <img src='https://github.com/Drthrax74/Mikrotik/assets/35907/1cd7218e-7204-4c6e-9f54-a1938f55b17e' />
 
 <br />
@@ -50,17 +58,6 @@ Menu de sélection `IP` > `Addresses` > `+` .
 <img src='https://github.com/Drthrax74/Mikrotik/assets/35907/acbfa20f-58f0-4fef-a80d-e8dd606cde76' />
 
 <br />
-
-
-Le champs `Address` doit être une adresse IP en écriture CIDR. (XXX.XXX.XXX.XXX/YY)
-
-Le champs `Interface` sert à sélectionner l'interface sur laquel on souhaite appliquer l'adresse IP.
-
-Le champs `Network` sera remplie automatiquement si on entre correctement l'adresse CIDR précédemment. (Optionel)
-
-
-
-
 
 
 
