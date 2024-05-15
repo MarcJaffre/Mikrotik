@@ -50,12 +50,15 @@ Le champs `Interface` sert à sélectionner l'interface sur laquel on souhaite a
 Le champs `Network` sera remplie automatiquement si on entre correctement l'adresse CIDR précédemment. (Optionel)
 
 **WAN**
+
 <img src='https://github.com/Drthrax74/Mikrotik/assets/35907/1cd7218e-7204-4c6e-9f54-a1938f55b17e' />
 
 **LAN**
+
 <img src='https://github.com/Drthrax74/Mikrotik/assets/35907/158a0573-5557-43bb-a61d-49eb13716e51' />
 
 **Vérification Globale**
+
 <img src='https://github.com/Drthrax74/Mikrotik/assets/35907/a6720e6d-f625-41a0-be06-faad42c4bb8f' />
 
 
