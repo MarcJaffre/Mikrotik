@@ -5,7 +5,7 @@
 ### I. Information
 Si un serveur DHCP est présent, il faudra éteindre l'interface avant puis la configurer.
 
-
+<br />
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### II. Configurer l'interface WAN
