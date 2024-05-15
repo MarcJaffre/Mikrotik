@@ -150,11 +150,12 @@ Menu de sélection `IP` > `Firewall` > `NAT` > `+`.
 
 <br />
 
-<img src='https://github.com/Drthrax74/Mikrotik/assets/35907/e607a8a8-328e-468d-be70-925ff88cc73b' />
+<img src='https://github.com/Drthrax74/Mikrotik/assets/35907/d7519170-c70a-40a9-8238-17940894200d' />
 
 
 
-
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### IV. Test de fonctionnement
+#### A. Configuration Réseau
 ![image](https://github.com/Drthrax74/Mikrotik/assets/35907/1cfd8070-2b4d-484f-ae6f-3a3f34082797)
 
