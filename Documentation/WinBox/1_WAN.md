@@ -44,3 +44,11 @@ L'adresse `0.0.0.0/0` symbolise l'ensemble des réseaux inconnus (Internet) et l
 
 <br />
 <br />
+
+
+#### C. Vérification du fonctionnement du routeur
+Le `ping 8.8.8.8` permet de vérifier l'interconnexion et le `ping google.fr` la résolution de NOM (DNS) .
+
+<img src='https://github.com/Drthrax74/Mikrotik/assets/35907/f5f97f35-da5b-4a0e-8cb8-6e26f041a06b' />
+
+
