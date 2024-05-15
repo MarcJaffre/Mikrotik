@@ -146,14 +146,13 @@ Menu de sélection `IP` > `DHCP Server` > `Networks` > `+` .
 #### C. NAT (Masquerade)
 Menu de sélection `IP` > `Firewall` > `NAT` > `+`. 
 
-```
-[GENERAL]
- - Chain         : srcnat
- - Out Interface : WAN
+<img src='https://github.com/Drthrax74/Mikrotik/assets/35907/20867a8f-e62d-4481-b8c1-a939184dff95' />
 
-[Action]
- - Action: Masquerade
-```
+<br />
+
+<img src='https://github.com/Drthrax74/Mikrotik/assets/35907/e607a8a8-328e-468d-be70-925ff88cc73b' />
+
+
 
 
 
