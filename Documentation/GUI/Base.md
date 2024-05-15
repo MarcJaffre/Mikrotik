@@ -45,8 +45,11 @@ Menu de sélection `IP` > `Addresses` > `+` .
 
 <img src='https://github.com/Drthrax74/Mikrotik/assets/35907/1cd7218e-7204-4c6e-9f54-a1938f55b17e' />
 
+<br />
+
 <img src='https://github.com/Drthrax74/Mikrotik/assets/35907/acbfa20f-58f0-4fef-a80d-e8dd606cde76' />
 
+<br />
 
 
 Le champs `Address` doit être une adresse IP en écriture CIDR. (XXX.XXX.XXX.XXX/YY)
