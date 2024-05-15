@@ -11,14 +11,14 @@ Le routeur Mikrotik disposera de 2 carte réseaux.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### II. Configuration de base
 #### A. Définir le nom de l'équipement
-Menu de sélection `System` => `Identity`
+Menu de sélection `System` > `Identity`
 
 <p align='center'> <img src='https://github.com/Drthrax74/Mikrotik/assets/35907/10b708bb-2623-40cf-98de-2f8405616958)' /> </p>
 
 <p align='center'> <img src='https://github.com/Drthrax74/Mikrotik/assets/35907/ec02cb7f-cb1b-4eae-af54-76cc15345f2b' /> </p>
 
 #### B. Définir le nom des interfaces réseaux
-Menu de sélection `Interfaces` puis `sélectionner l'interface` et changer le nom de l'interface.
+Menu de sélection `Interfaces` > `sélectionner l'interface` et `changer le nom`> `Apply` .
 
 <p align='center'> <img src='https://github.com/Drthrax74/Mikrotik/assets/35907/633167b0-2ea0-4bbd-b263-a9b93bddcb3a' /> </p>
 
@@ -28,5 +28,29 @@ Menu de sélection `Interfaces` puis `sélectionner l'interface` et changer le n
 
 
 #### C. Configuration des interfaces (IP)
+Si un serveur DHCP est présent, il faudra éteindre l'interface avant puis la configurer.
+
+##### 1. Accéder au menu Address List
+Menu de sélection `IP` > `Addresses` > `+` .
 
 <p align='center'> <img src='https://github.com/Drthrax74/Mikrotik/assets/35907/c8ce987f-5660-49e1-8cba-1920c8d1857b' /> </p>
+
+<p align='center'> <img src='https://github.com/Drthrax74/Mikrotik/assets/35907/a3366305-b791-4ffd-9207-1296c77c52bd' /> </p>
+
+##### 2. Définir l'adresse IP
+Le champs `Address` doit être une adresse IP en écriture CIDR. (XXX.XXX.XXX.XXX/YY)
+
+Le champs `Interface` sert à sélectionner l'interface sur laquel on souhaite appliquer l'adresse IP.
+
+Le champs `Network` sera remplie automatiquement si on entre correctement l'adresse CIDR précédemment. (Optionel)
+
+**WAN**
+<p align='center'> <img src='https://github.com/Drthrax74/Mikrotik/assets/35907/383dbc79-be4d-4d4c-ae9f-d223966f3621' /> </p>
+
+**LAN**
+<p align='center'> <img src='https://github.com/Drthrax74/Mikrotik/assets/35907/158a0573-5557-43bb-a61d-49eb13716e51' /> </p>
+
+
+
+
+
