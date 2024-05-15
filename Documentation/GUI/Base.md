@@ -43,6 +43,7 @@ Si un serveur DHCP est présent, il faudra éteindre l'interface avant puis la c
 Menu de sélection `IP` > `Addresses` > `+` .
 
 **WAN**
+
 <img src='https://github.com/Drthrax74/Mikrotik/assets/35907/1cd7218e-7204-4c6e-9f54-a1938f55b17e' />
 
 <br />
