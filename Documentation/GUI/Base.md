@@ -85,9 +85,12 @@ Dans le champs `Servers` indiquer les serveurs DNS.
 
 Pour ajouter un autre serveur DNS, il suffit de faire la flèche vers le bas à droite de `Servers`
 
+**Allow Remote Requests** doit être COCHER pour permettre au routeur de répondre au dequête DNS qu'il reçois.
+
 <br />
 
-<img src='https://github.com/Drthrax74/Mikrotik/assets/35907/c5a1af8f-5819-4fd7-9710-f81549f431da' />
+<img src='https://github.com/Drthrax74/Mikrotik/assets/35907/dc7aec51-ba1e-4a0d-a0a7-cdf4e2decc95' />
+
 
 <br />
 
