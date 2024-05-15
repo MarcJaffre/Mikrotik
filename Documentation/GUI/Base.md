@@ -72,7 +72,13 @@ L'adresse `0.0.0.0/0` symbolise l'ensemble des réseaux inconnus (Internet) et l
 
 <img src='https://github.com/Drthrax74/Mikrotik/assets/35907/7990b207-d8a0-45cf-8825-e7932c831afe' />
 
+
 <br />
+
+
+
+
+
 
 #### C. Définir le serveur DNS du routeur
 Menu de sélection `IP` > `DNS`.
