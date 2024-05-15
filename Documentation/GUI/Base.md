@@ -58,24 +58,10 @@ Le champs `Network` sera remplie automatiquement si on entre correctement l'adre
 <img src='https://github.com/Drthrax74/Mikrotik/assets/35907/acbfa20f-58f0-4fef-a80d-e8dd606cde76' />
 
 <br />
-
-
-
-
-
-
-
-
-
-
-
-
-
-<br />
 <br />
 
 
-#### C. Configuration de la route par défaut
+#### B. Configuration de la route par défaut
 Menu de sélection `IP` > `Routes` > `+` .
 
 L'adresse `0.0.0.0/0` symbolise l'ensemble des réseaux inconnus (Internet) et la `Gateways` est l'adresse IP où on va envoyer la demande d'information.
@@ -88,7 +74,7 @@ L'adresse `0.0.0.0/0` symbolise l'ensemble des réseaux inconnus (Internet) et l
 
 <br />
 
-#### E. Définir le serveur DNS du routeur
+#### C. Définir le serveur DNS du routeur
 Menu de sélection `IP` > `DNS`.
 
 Dans le champs `Servers` indiquer les serveurs DNS. Pour ajouter un autre serveur DNS, il suffit de faire la flèche vers le bas à droite de `Servers`
@@ -101,7 +87,7 @@ Dans le champs `Servers` indiquer les serveurs DNS. Pour ajouter un autre serveu
 <br />
 <br />
 
-#### E. Vérification du fonctionnement du routeur
+#### D. Vérification du fonctionnement du routeur
 Le `ping 8.8.8.8` permet de vérifier l'interconnexion et le `ping google.fr` la résolution de NOM (DNS) .
 
 <img src='https://github.com/Drthrax74/Mikrotik/assets/35907/f5f97f35-da5b-4a0e-8cb8-6e26f041a06b' />
