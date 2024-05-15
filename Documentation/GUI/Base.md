@@ -53,6 +53,9 @@ Le champs `Network` sera remplie automatiquement si on entre correctement l'adre
 
 <img src='https://github.com/Drthrax74/Mikrotik/assets/35907/1cd7218e-7204-4c6e-9f54-a1938f55b17e' />
 
+
+<img src='https://github.com/Drthrax74/Mikrotik/assets/35907/acbfa20f-58f0-4fef-a80d-e8dd606cde76' />
+
 <br />
 
 #### D. Configuration de la route par défaut
@@ -61,6 +64,12 @@ Menu de sélection `IP` > `Routes` > `+` .
 L'adresse `0.0.0.0/0` symbolise l'ensemble des réseaux inconnus (Internet) et la `Gateways` est l'adresse IP où on va envoyer la demande d'information.
 
 <img src='https://github.com/Drthrax74/Mikrotik/assets/35907/1596da4d-652a-4f77-a760-bf49977e664e' />
+
+<br />
+
+<img src='https://github.com/Drthrax74/Mikrotik/assets/35907/7990b207-d8a0-45cf-8825-e7932c831afe' />
+
+
 
 <br />
 
