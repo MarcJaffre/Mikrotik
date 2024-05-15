@@ -50,7 +50,6 @@ Depuis le panel Web, aller dans  `Bridge`.
 /ip dns set servers=192.168.200.1
 ```
 
-![image](https://github.com/Drthrax74/Mikrotik/assets/35907/0e065d2c-a406-4dca-96cb-6a74f741aa7a)
 <br />
 <br />
 
