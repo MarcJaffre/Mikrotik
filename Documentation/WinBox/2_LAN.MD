@@ -50,6 +50,8 @@ Dans le cas d'une interface utilisant un pont, il faut l'attaché sur le pont.
 Menu de sélection `IP` > `DHCP Server` > `Networks` > `+` .
 
 
+![image](https://github.com/Drthrax74/Mikrotik/assets/35907/8eb9a441-8739-4a01-979d-6b77ba47b102)
+
 
 
 
