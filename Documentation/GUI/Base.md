@@ -129,17 +129,15 @@ Menu de sélection `IP` > `DHCP Server` > `+` .
 
 Il faut attacher l'interface au serveur DHCP , puis son Pool.
 
-Dans le cas d'une interface utilisant un pont, il faut l'attaché sur le pont.
-
 <img src='https://github.com/Drthrax74/Mikrotik/assets/35907/1159d745-5dbb-436f-928a-36a42e39cb77' />
 
 <br />
 
-<img src='https://github.com/Drthrax74/Mikrotik/assets/35907/8379b478-6c8b-4e51-9359-95f6059368ab' />
+Dans le cas d'une interface utilisant un pont, il faut l'attaché sur le pont.
 
+<img src='https://github.com/Drthrax74/Mikrotik/assets/35907/0b576793-1d10-4e45-81ef-950a3d8d24bf' />
 
-
-
+<br />
 
 ##### 3. DHCP Server (Networks)
 Menu de sélection `IP` > `DHCP Server` > `Networks` > `+` .
