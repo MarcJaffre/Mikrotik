@@ -38,10 +38,12 @@ Menu de sélection `Interfaces` > `sélectionner l'interface` et `changer le nom
 
 <br />
 
-#### C. Configuration des interfaces (IP)
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### III. Configuration du WAN
 Si un serveur DHCP est présent, il faudra éteindre l'interface avant puis la configurer.
 
-##### 1. Accéder au menu Address List
+#### A. Accéder au menu Address List
 Menu de sélection `IP` > `Addresses` > `+` .
 
 <img src='https://github.com/Drthrax74/Mikrotik/assets/35907/c8ce987f-5660-49e1-8cba-1920c8d1857b' /> 
@@ -52,7 +54,7 @@ Menu de sélection `IP` > `Addresses` > `+` .
 
 <br />
 
-##### 2. Définir l'adresse IP
+#### B. Définir l'adresse IP
 Le champs `Address` doit être une adresse IP en écriture CIDR. (XXX.XXX.XXX.XXX/YY)
 
 Le champs `Interface` sert à sélectionner l'interface sur laquel on souhaite appliquer l'adresse IP.
@@ -70,7 +72,7 @@ Le champs `Network` sera remplie automatiquement si on entre correctement l'adre
 <br />
 
 
-#### D. Configuration de la route par défaut
+#### C. Configuration de la route par défaut
 Menu de sélection `IP` > `Routes` > `+` .
 
 L'adresse `0.0.0.0/0` symbolise l'ensemble des réseaux inconnus (Internet) et la `Gateways` est l'adresse IP où on va envoyer la demande d'information.
@@ -96,8 +98,9 @@ Dans le champs `Servers` indiquer les serveurs DNS. Pour ajouter un autre serveu
 <br />
 <br />
 
-#### F. Vérification du fonctionnement du routeur
+#### E. Vérification du fonctionnement du routeur
 Le `ping 8.8.8.8` permet de vérifier l'interconnexion et le `ping google.fr` la résolution de NOM (DNS) .
 
 <img src='https://github.com/Drthrax74/Mikrotik/assets/35907/f5f97f35-da5b-4a0e-8cb8-6e26f041a06b' />
+
 
