@@ -28,7 +28,7 @@ Menu de sélection `System` > `Identity`
 <br />
 
 #### B. Définir le nom des interfaces réseaux
-Menu de sélection `Interfaces` > `sélectionner l'interface` et `changer le nom`> `Apply` .
+Menu de sélection `Interfaces` > `EtherX` > `Name: XXXX` > `Apply` .
 
 <img src='https://github.com/Drthrax74/Mikrotik/assets/35907/4d89fff0-8dd1-4ec6-96d9-4088b0bc8bf4' />
 
