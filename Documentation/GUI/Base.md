@@ -22,8 +22,9 @@ Menu de sélection `Interfaces` puis `sélectionner l'interface` et changer le n
 
 <p align='center'> <img src='https://github.com/Drthrax74/Mikrotik/assets/35907/633167b0-2ea0-4bbd-b263-a9b93bddcb3a' /> </p>
 
-
+<br />
 
 <p align='center'> <img src='https://github.com/Drthrax74/Mikrotik/assets/35907/4d89fff0-8dd1-4ec6-96d9-4088b0bc8bf4' /> </p>
+
 
 #### C. 
