@@ -50,6 +50,13 @@ Dans le cas d'une interface utilisant un pont, il faut l'attaché sur le pont.
 Menu de sélection `IP` > `DHCP Server` > `Networks` > `+` .
 
 
+
+
+
+
+
+
+
 #### C. NAT (Masquerade)
 Menu de sélection `IP` > `Firewall` > `NAT` > `+`. 
 
