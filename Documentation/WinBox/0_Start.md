@@ -53,12 +53,3 @@ Pour ajouter un autre serveur DNS, il suffit de faire la flèche vers le bas à 
 <br />
 
 <img src='https://github.com/Drthrax74/Mikrotik/assets/35907/dc7aec51-ba1e-4a0d-a0a7-cdf4e2decc95' />
-
-<br />
-
-#### D. Vérification du fonctionnement du routeur
-Le `ping 8.8.8.8` permet de vérifier l'interconnexion et le `ping google.fr` la résolution de NOM (DNS) .
-
-<img src='https://github.com/Drthrax74/Mikrotik/assets/35907/f5f97f35-da5b-4a0e-8cb8-6e26f041a06b' />
-
-
