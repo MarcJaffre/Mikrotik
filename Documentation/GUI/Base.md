@@ -35,9 +35,6 @@ Menu de sélection `Interfaces` > `EtherX` > `Name: XXXX` > `Apply` .
 
 <br />
 <br />
-<br />
-<br />
-
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### III. Configuration du WAN
@@ -73,8 +70,6 @@ L'adresse `0.0.0.0/0` symbolise l'ensemble des réseaux inconnus (Internet) et l
 
 <br />
 
-
-
 <img src='https://github.com/Drthrax74/Mikrotik/assets/35907/7aae00c1-52e2-4f6f-963d-a1b5d480a359' />
 
 
@@ -90,11 +85,16 @@ Pour ajouter un autre serveur DNS, il suffit de faire la flèche vers le bas à 
 <img src='https://github.com/Drthrax74/Mikrotik/assets/35907/c5a1af8f-5819-4fd7-9710-f81549f431da' />
 
 <br />
-<br />
 
 #### D. Vérification du fonctionnement du routeur
 Le `ping 8.8.8.8` permet de vérifier l'interconnexion et le `ping google.fr` la résolution de NOM (DNS) .
 
 <img src='https://github.com/Drthrax74/Mikrotik/assets/35907/f5f97f35-da5b-4a0e-8cb8-6e26f041a06b' />
 
+
+<br />
+<br />
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### III. Configuration du LAN
 
