@@ -33,6 +33,7 @@ Menu de sélection `Interfaces` > `EtherX` > `Name: XXXX` > `Apply` .
 <img src='https://github.com/Drthrax74/Mikrotik/assets/35907/4d89fff0-8dd1-4ec6-96d9-4088b0bc8bf4' />
 
 <br />
+<br />
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -42,19 +43,31 @@ Si un serveur DHCP est présent, il faudra éteindre l'interface avant puis la c
 #### A. Accéder au menu Address List
 Menu de sélection `IP` > `Addresses` > `+` .
 
-**WAN**
-
 <img src='https://github.com/Drthrax74/Mikrotik/assets/35907/1cd7218e-7204-4c6e-9f54-a1938f55b17e' />
 
-<br />
-
 <img src='https://github.com/Drthrax74/Mikrotik/assets/35907/acbfa20f-58f0-4fef-a80d-e8dd606cde76' />
+
+
 
 Le champs `Address` doit être une adresse IP en écriture CIDR. (XXX.XXX.XXX.XXX/YY)
 
 Le champs `Interface` sert à sélectionner l'interface sur laquel on souhaite appliquer l'adresse IP.
 
 Le champs `Network` sera remplie automatiquement si on entre correctement l'adresse CIDR précédemment. (Optionel)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
