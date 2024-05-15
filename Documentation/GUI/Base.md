@@ -54,12 +54,7 @@ Le champs `Network` sera remplie automatiquement si on entre correctement l'adre
 <img src='https://github.com/Drthrax74/Mikrotik/assets/35907/1cd7218e-7204-4c6e-9f54-a1938f55b17e' />
 
 <br />
-
-<img src='https://github.com/Drthrax74/Mikrotik/assets/35907/acbfa20f-58f0-4fef-a80d-e8dd606cde76' />
-
 <br />
-<br />
-
 
 #### B. Configuration de la route par défaut
 Menu de sélection `IP` > `Routes` > `+` .
