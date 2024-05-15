@@ -74,5 +74,7 @@ Dans le champs `Servers` indiquer les serveurs DNS. Pour ajouter un autre serveu
 
 <img src='https://github.com/Drthrax74/Mikrotik/assets/35907/89de680f-015d-4670-a4ba-353c2f68892c' />
 
+<br />
+
 <img src='https://github.com/Drthrax74/Mikrotik/assets/35907/c5a1af8f-5819-4fd7-9710-f81549f431da' />
 
