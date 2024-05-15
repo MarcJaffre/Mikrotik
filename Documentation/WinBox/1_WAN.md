@@ -25,30 +25,4 @@ Le champs `Network` sera remplie automatiquement si on entre correctement l'adre
 <br />
 <br />
 
-#### B. Configuration de la route par défaut
-Menu de sélection `IP` > `Routes` > `+` .
-
-L'adresse `0.0.0.0/0` symbolise l'ensemble des réseaux inconnus (Internet) et la `Gateways` est l'adresse IP où on va envoyer la demande d'information.
-
-<img src='https://github.com/Drthrax74/Mikrotik/assets/35907/1596da4d-652a-4f77-a760-bf49977e664e' />
-
-<br />
-
-<img src='https://github.com/Drthrax74/Mikrotik/assets/35907/7990b207-d8a0-45cf-8825-e7932c831afe' />
-
-
-<br />
-
-<img src='https://github.com/Drthrax74/Mikrotik/assets/35907/7aae00c1-52e2-4f6f-963d-a1b5d480a359' />
-
-
-<br />
-<br />
-
-
-#### C. Vérification du fonctionnement du routeur
-Le `ping 8.8.8.8` permet de vérifier l'interconnexion et le `ping google.fr` la résolution de NOM (DNS) .
-
-<img src='https://github.com/Drthrax74/Mikrotik/assets/35907/f5f97f35-da5b-4a0e-8cb8-6e26f041a06b' />
-
 
