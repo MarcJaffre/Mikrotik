@@ -26,6 +26,7 @@ Menu de sélection `Interfaces` > `sélectionner l'interface` et `changer le nom
 
 <p align='center'> <img src='https://github.com/Drthrax74/Mikrotik/assets/35907/4d89fff0-8dd1-4ec6-96d9-4088b0bc8bf4' /> </p>
 
+<br />
 
 #### C. Configuration des interfaces (IP)
 Si un serveur DHCP est présent, il faudra éteindre l'interface avant puis la configurer.
@@ -38,6 +39,8 @@ Menu de sélection `IP` > `Addresses` > `+` .
 <br />
 
 <img src='https://github.com/Drthrax74/Mikrotik/assets/35907/a3366305-b791-4ffd-9207-1296c77c52bd' />
+
+<br />
 
 ##### 2. Définir l'adresse IP
 Le champs `Address` doit être une adresse IP en écriture CIDR. (XXX.XXX.XXX.XXX/YY)
@@ -58,6 +61,7 @@ Le champs `Network` sera remplie automatiquement si on entre correctement l'adre
 
 <img src='https://github.com/Drthrax74/Mikrotik/assets/35907/a6720e6d-f625-41a0-be06-faad42c4bb8f' />
 
+<br />
 
 #### D. Configuration de la route par défaut
 Menu de sélection `IP` > `Routes` > `+` .
@@ -66,6 +70,7 @@ L'adresse `0.0.0.0/0` symbolise l'ensemble des réseaux inconnus (Internet) et l
 
 <img src='https://github.com/Drthrax74/Mikrotik/assets/35907/1596da4d-652a-4f77-a760-bf49977e664e' />
 
+<br />
 
 #### E. Définir le serveur DNS du routeur
 Menu de sélection `IP` > `DNS`.
@@ -77,4 +82,11 @@ Dans le champs `Servers` indiquer les serveurs DNS. Pour ajouter un autre serveu
 <br />
 
 <img src='https://github.com/Drthrax74/Mikrotik/assets/35907/c5a1af8f-5819-4fd7-9710-f81549f431da' />
+
+<br />
+
+#### F. Vérification du fonctionnement du routeur
+Le `ping 8.8.8.8` permet de vérifier l'interconnexion et le `ping google.fr` la résolution de NOM (DNS) .
+
+<img src='https://github.com/Drthrax74/Mikrotik/assets/35907/f5f97f35-da5b-4a0e-8cb8-6e26f041a06b' />
 
