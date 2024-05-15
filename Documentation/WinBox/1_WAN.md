@@ -42,27 +42,5 @@ L'adresse `0.0.0.0/0` symbolise l'ensemble des réseaux inconnus (Internet) et l
 <img src='https://github.com/Drthrax74/Mikrotik/assets/35907/7aae00c1-52e2-4f6f-963d-a1b5d480a359' />
 
 
-#### C. Définir le serveur DNS du routeur
-Menu de sélection `IP` > `DNS`.
-
-Dans le champs `Servers` indiquer les serveurs DNS.
-
-Pour ajouter un autre serveur DNS, il suffit de faire la flèche vers le bas à droite de `Servers`
-
-**Allow Remote Requests** doit être COCHER pour permettre au routeur de répondre au dequête DNS qu'il reçois.
-
-<br />
-
-<img src='https://github.com/Drthrax74/Mikrotik/assets/35907/dc7aec51-ba1e-4a0d-a0a7-cdf4e2decc95' />
-
-
-<br />
-
-#### D. Vérification du fonctionnement du routeur
-Le `ping 8.8.8.8` permet de vérifier l'interconnexion et le `ping google.fr` la résolution de NOM (DNS) .
-
-<img src='https://github.com/Drthrax74/Mikrotik/assets/35907/f5f97f35-da5b-4a0e-8cb8-6e26f041a06b' />
-
-
 <br />
 <br />
