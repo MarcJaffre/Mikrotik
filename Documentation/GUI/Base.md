@@ -23,21 +23,12 @@ Le routeur Mikrotik disposera de 2 carte réseaux.
 #### A. Définir le nom de l'équipement
 Menu de sélection `System` > `Identity`
 
-<img src='https://github.com/Drthrax74/Mikrotik/assets/35907/10b708bb-2623-40cf-98de-2f8405616958)' />
-
-<br />
-
 <img src='https://github.com/Drthrax74/Mikrotik/assets/35907/ec02cb7f-cb1b-4eae-af54-76cc15345f2b' />
 
 <br />
 
-
 #### B. Définir le nom des interfaces réseaux
 Menu de sélection `Interfaces` > `sélectionner l'interface` et `changer le nom`> `Apply` .
-
-<img src='https://github.com/Drthrax74/Mikrotik/assets/35907/633167b0-2ea0-4bbd-b263-a9b93bddcb3a' />
-
-<br />
 
 <img src='https://github.com/Drthrax74/Mikrotik/assets/35907/4d89fff0-8dd1-4ec6-96d9-4088b0bc8bf4' />
 
