@@ -35,7 +35,12 @@ Menu de sélection `IP` > `Addresses` > `+` .
 
 <img src='https://github.com/Drthrax74/Mikrotik/assets/35907/c8ce987f-5660-49e1-8cba-1920c8d1857b' /> 
 
+<br />
+
 <img src='https://github.com/Drthrax74/Mikrotik/assets/35907/a3366305-b791-4ffd-9207-1296c77c52bd' />
+
+
+
 
 ##### 2. Définir l'adresse IP
 Le champs `Address` doit être une adresse IP en écriture CIDR. (XXX.XXX.XXX.XXX/YY)
