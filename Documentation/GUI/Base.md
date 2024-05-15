@@ -143,6 +143,19 @@ Dans le cas d'une interface utilisant un pont, il faut l'attaché sur le pont.
 Menu de sélection `IP` > `DHCP Server` > `Networks` > `+` .
 
 
+#### C. NAT (Masquerade)
+Menu de sélection `IP` > `Firewall` > `NAT` > `+`. 
+
+```
+[GENERAL]
+ - Chain         : srcnat
+ - Out Interface : WAN
+
+[Action]
+ - Action: Masquerade
+```
+
+
 
 ![image](https://github.com/Drthrax74/Mikrotik/assets/35907/1cfd8070-2b4d-484f-ae6f-3a3f34082797)
 
