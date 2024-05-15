@@ -39,9 +39,6 @@ Menu de sélection `IP` > `Addresses` > `+` .
 
 <img src='https://github.com/Drthrax74/Mikrotik/assets/35907/a3366305-b791-4ffd-9207-1296c77c52bd' />
 
-
-
-
 ##### 2. Définir l'adresse IP
 Le champs `Address` doit être une adresse IP en écriture CIDR. (XXX.XXX.XXX.XXX/YY)
 
@@ -62,9 +59,8 @@ Le champs `Network` sera remplie automatiquement si on entre correctement l'adre
 <img src='https://github.com/Drthrax74/Mikrotik/assets/35907/a6720e6d-f625-41a0-be06-faad42c4bb8f' />
 
 
+#### D. Configuration de la route par défaut
+Menu de sélection `IP` > `Routes` > `+` .
 
-##### 3. 
-
-
-
+<img src='https://github.com/Drthrax74/Mikrotik/assets/35907/1596da4d-652a-4f77-a760-bf49977e664e' />
 
