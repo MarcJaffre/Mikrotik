@@ -33,9 +33,9 @@ Si un serveur DHCP est présent, il faudra éteindre l'interface avant puis la c
 ##### 1. Accéder au menu Address List
 Menu de sélection `IP` > `Addresses` > `+` .
 
-<p align='center'> <img src='https://github.com/Drthrax74/Mikrotik/assets/35907/c8ce987f-5660-49e1-8cba-1920c8d1857b' /> </p>
+<img src='https://github.com/Drthrax74/Mikrotik/assets/35907/c8ce987f-5660-49e1-8cba-1920c8d1857b' /> 
 
-<p align='center'> <img src='https://github.com/Drthrax74/Mikrotik/assets/35907/a3366305-b791-4ffd-9207-1296c77c52bd' /> </p>
+<img src='https://github.com/Drthrax74/Mikrotik/assets/35907/a3366305-b791-4ffd-9207-1296c77c52bd' />
 
 ##### 2. Définir l'adresse IP
 Le champs `Address` doit être une adresse IP en écriture CIDR. (XXX.XXX.XXX.XXX/YY)
@@ -45,13 +45,13 @@ Le champs `Interface` sert à sélectionner l'interface sur laquel on souhaite a
 Le champs `Network` sera remplie automatiquement si on entre correctement l'adresse CIDR précédemment. (Optionel)
 
 **WAN**
-<p align='center'> <img src='https://github.com/Drthrax74/Mikrotik/assets/35907/1cd7218e-7204-4c6e-9f54-a1938f55b17e' /> </p>
+<img src='https://github.com/Drthrax74/Mikrotik/assets/35907/1cd7218e-7204-4c6e-9f54-a1938f55b17e' />
 
 **LAN**
-<p align='center'> <img src='https://github.com/Drthrax74/Mikrotik/assets/35907/158a0573-5557-43bb-a61d-49eb13716e51' /> </p>
+<img src='https://github.com/Drthrax74/Mikrotik/assets/35907/158a0573-5557-43bb-a61d-49eb13716e51' />
 
 **Vérification Globale**
-<p align='center'> <img src='https://github.com/Drthrax74/Mikrotik/assets/35907/a6720e6d-f625-41a0-be06-faad42c4bb8f' /> </p>
+<img src='https://github.com/Drthrax74/Mikrotik/assets/35907/a6720e6d-f625-41a0-be06-faad42c4bb8f' />
 
 
 
