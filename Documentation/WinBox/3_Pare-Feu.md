@@ -92,5 +92,16 @@ Log Prefix     : [HTTP/HTTPS]
 COMMENT        : HTTP, HTTPS
 ```
 
+```
+Chain          : srcnat
+src Address    : 192.168.220.0/24 | 192.168.240.0/24
+Out. Interface : WAN
+Protocol       : ICMP
+Action         : Masquerade
+Log            : Cocher
+Log Prefix     : [ICMP]  
+COMMENT        : Ping
+```
+
 
 ![image](https://github.com/Drthrax74/Mikrotik/assets/35907/1464e7aa-cd1a-4de8-9b3f-156bc78ba474)
