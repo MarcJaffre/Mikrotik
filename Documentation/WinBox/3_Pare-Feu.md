@@ -20,6 +20,16 @@ Pour avoir accès à internet, il faut définir le WAN en mode Masquerade pour d
 #### A. Création d'une Règle NAT
 Menu de sélection `IP` > `Firewall` > `NAT` > `+`. 
 
+```
+Chain          : srcnat
+src Address    : 192.168.220.0/24
+Out. Interface : WAN
+Action         : Masquerade
+```
+
+
+
+
 <img src='https://github.com/Drthrax74/Mikrotik/assets/35907/20867a8f-e62d-4481-b8c1-a939184dff95' />
 
 <br />
