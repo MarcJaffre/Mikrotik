@@ -13,8 +13,11 @@ Toute requête sur un réseau inconnu va sur la passerelle 192.168.200.1.
 <br />
 
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### II. Internet
+Pour avoir accès à internet, il faut définir le WAN en mode Masquerade pour définir que l'IP de sortir est celle du routeur. (IP WAN)
 
-#### C. NAT (Masquerade)
+#### A. Création d'une Règle NAT
 Menu de sélection `IP` > `Firewall` > `NAT` > `+`. 
 
 <img src='https://github.com/Drthrax74/Mikrotik/assets/35907/20867a8f-e62d-4481-b8c1-a939184dff95' />
@@ -22,4 +25,3 @@ Menu de sélection `IP` > `Firewall` > `NAT` > `+`.
 <br />
 
 <img src='https://github.com/Drthrax74/Mikrotik/assets/35907/d7519170-c70a-40a9-8238-17940894200d' />
-
