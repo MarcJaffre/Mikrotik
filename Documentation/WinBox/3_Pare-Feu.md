@@ -54,11 +54,11 @@ Action         : Masquerade
 
 
 #### C. Création d'une règle NAT par Zone avec Filtrage de Port
-##### 1. LAN
-
+Permet de filtrer les ports sortants autorisés avec du filtrage réseaux. On aurait pu définir une IP au lieu d'un réseau.
+##### 1. LAN, DMZ
 ```
 Chain          : srcnat
-src Address    : 192.168.220.0/24
+src Address    : 192.168.220.0/24 | 192.168.240.0/24
 Out. Interface : WAN
 Protocol       : TCP
 Dst Port       : 53
@@ -70,7 +70,7 @@ COMMENT        : DNS
 
 ```
 Chain          : srcnat
-src Address    : 192.168.220.0/24
+src Address    : 192.168.220.0/24 | 192.168.240.0/24
 Out. Interface : WAN
 Protocol       : UDP
 Dst Port       : 53
@@ -82,7 +82,7 @@ COMMENT        : DNS
 
 ```
 Chain          : srcnat
-src Address    : 192.168.220.0/24
+src Address    : 192.168.220.0/24 | 192.168.240.0/24
 Out. Interface : WAN
 Protocol       : TCP
 Dst Port       : 80,443
@@ -91,3 +91,6 @@ Log            : Cocher
 Log Prefix     : [HTTP/HTTPS]  
 COMMENT        : HTTP, HTTPS
 ```
+
+
+![image](https://github.com/Drthrax74/Mikrotik/assets/35907/1464e7aa-cd1a-4de8-9b3f-156bc78ba474)
