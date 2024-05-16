@@ -40,6 +40,11 @@ Il faut attacher l'interface au serveur DHCP , puis son Pool.
 
 <br />
 
+![image](https://github.com/Drthrax74/Mikrotik/assets/35907/d9c66777-c8eb-4bc5-beb0-824f14b786d0)
+
+
+<br />
+
 Dans le cas d'une interface utilisant un pont, il faut l'attaché sur le pont.
 
 <img src='https://github.com/Drthrax74/Mikrotik/assets/35907/0b576793-1d10-4e45-81ef-950a3d8d24bf' />
