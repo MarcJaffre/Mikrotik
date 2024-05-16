@@ -15,10 +15,10 @@ Toute requête sur un réseau inconnu va sur la passerelle 192.168.200.1.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### II. Internet
-Pour avoir accès à internet, il faut définir le WAN en mode Masquerade pour définir que l'IP de sortir est celle du routeur. (IP WAN)
+Pour permettre l'accès à internet, il faut créer une règle NAT. La règle est de type sortante, sur le port WAN et l'IP publique (IP WAN) sera celle utilisé dans le cas présent.
 
 #### A. Création d'une Règle NAT Globale
-Menu de sélection `IP` > `Firewall` > `NAT` > `+`. La règle suivant permet à l'ensemble des réseaux locaux d'avoir internet. (Tout les ports sortant sont ouverts)
+Menu de sélection `IP` > `Firewall` > `NAT` > `+`. La règle suivante permet à l'ensemble des réseaux locaux d'avoir internet. (Tout les ports sortant sont ouverts)
 
 <img src='https://github.com/Drthrax74/Mikrotik/assets/35907/20867a8f-e62d-4481-b8c1-a939184dff95' />
 
@@ -29,7 +29,7 @@ Menu de sélection `IP` > `Firewall` > `NAT` > `+`. La règle suivant permet à 
 
 <br />
 
-#### B. Création d'une règle NAT (LAN, DMZ)
+#### B. Création d'une règle NAT par Zone
 ##### 1. LAN
 Permet au LAN d'avoir tous les ports en sortie ouverts.
 ```
@@ -50,3 +50,38 @@ Out. Interface : WAN
 Action         : Masquerade
 ```
 ![image](https://github.com/Drthrax74/Mikrotik/assets/35907/2723bfe0-3ee3-4dc1-9130-f70cf05123a3)
+
+
+
+#### C. Création d'une règle NAT par Zone avec Filtrage de Port
+##### 1. LAN
+
+```
+Chain          : srcnat
+src Address    : 192.168.220.0/24
+Out. Interface : WAN
+Protocol       : TCP
+Dst Port       : 53
+Action         : Masquerade
+COMMENT        : DNS
+```
+
+```
+Chain          : srcnat
+src Address    : 192.168.220.0/24
+Out. Interface : WAN
+Protocol       : UDP
+Dst Port       : 53
+Action         : Masquerade
+COMMENT        : DNS
+```
+
+```
+Chain          : srcnat
+src Address    : 192.168.220.0/24
+Out. Interface : WAN
+Protocol       : TCP
+Dst Port       : 80,443
+Action         : Masquerade
+COMMENT        : HTTP, HTTPS
+```
