@@ -63,6 +63,8 @@ Out. Interface : WAN
 Protocol       : TCP
 Dst Port       : 53
 Action         : Masquerade
+Log            : Cocher
+Log Prefix     : [DNS] 
 COMMENT        : DNS
 ```
 
@@ -73,6 +75,8 @@ Out. Interface : WAN
 Protocol       : UDP
 Dst Port       : 53
 Action         : Masquerade
+Log            : Cocher
+Log Prefix     : [DNS] 
 COMMENT        : DNS
 ```
 
@@ -83,5 +87,7 @@ Out. Interface : WAN
 Protocol       : TCP
 Dst Port       : 80,443
 Action         : Masquerade
+Log            : Cocher
+Log Prefix     : [HTTP/HTTPS]  
 COMMENT        : HTTP, HTTPS
 ```
