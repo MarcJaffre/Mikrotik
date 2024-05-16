@@ -19,6 +19,9 @@
 https://www.youtube.com/watch?v=TPQ0Mv69M_w
 ```
 
+#### B. Outil de configuration
+Il faut télécharger WinBox pour permettre de découvrir l'équipement Microtik qui est pas configuré. (Connexion par Mac Address)
+
 <br />
 <br />
 
