@@ -22,3 +22,4 @@ Aller sur le site de [Mikrotik](https://mikrotik.com/download), puis choisir le 
 
 Transferer les fichiers dans la fenêtre  `Files` via le glisser / Dépossser.
 
+Relancer le routeur.
