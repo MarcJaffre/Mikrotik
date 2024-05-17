@@ -65,54 +65,76 @@ Mac Ping Server   : OFF
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### III. Routeur en HTTPS
-
-#### X. Création d'une autorité de certification
-##### 1. WebUI
+#### A. Création d'une autorité de certification et d'un certificat
+#### 1. Création du Certificat
 Menu de sélection `System` > `Certificates` > `+`.
 ```
 [GENERAL]
-- NAME        : CA_Root
-- Common-Name : CA-RT 
+- NAME        : RootCA
+- Common-Name : RootCA
 - Key Type    : RSA
 - Key Size    : 2048
 - Days Valid  : 365
+- Trusted     : Cocher
 
 [Key usage]
 - CRL Sign
 - Key Cert. sign
 ```
 
-##### 2. Console
+#### 2. Signer le certificat
+Menu de sélection `System` > `Certificates` > `RootCA` > `Sign` > `Certificate: RootCA` > `Start`.
+
+<br />
+
+#### 3. Création d'un certificat SSL (Routeur)
+Menu de sélection `System` > `Certificates` > `+`.
+```
+[GENERAL]
+- Name        : Certificat_WAN
+- Common Name : 192.168.200.50
+
+[Key usage]
+- Digital Signature
+- key  encipherment
+- data encipherment
+- key cert. sign
+- crl sign
+- tls client
+- tls server
+
+[Sign]
+ - Certificate: Certificat_WAN
+ - CA         : RootCA
+```
+
+#### 4. Appliquer le certificat au service
+Menu de sélection `IP` > `Services` > `www-ssl`.
+
+
+
+
+#### B. Création d'une autorité de certification et d'un certificat (Terminal)
+##### 1. Autorité de certification
 Menu de sélection `New Terminal`
 ```bash
 certificate add name=RootCA common-name=RootCA key-usage=key-cert-sign,crl-sign
-```
-
-<br />
-<br />
-
-#### B. Création d'un certificat depuis l'Autorité de certificat (Signature)
-##### 1. WebUI
-Menu de sélection `System` > `Certificates` > `RootCA` > `Sign` > `Certificate: RootCA` > `Start`.
-
-##### 2. Console
-Menu de sélection `New Terminal`
-```bash
 certificate sign RootCA
 ```
+##### 2. Certificat
+Menu de sélection `New Terminal`
+```
+certificate add name=Certificat_WAN common-name=192.168.200.50
+certificate sign Certificat_WAN ca=RootCA
+```
 
 <br />
 <br />
 
 
-#### X. 
-Menu de sélection ``
+![image](https://github.com/Drthrax74/Mikrotik/assets/35907/0d8f74ae-39ab-4b91-856f-bbe9146020d2)
 
-#### X. 
-Menu de sélection ``
 
-#### X. 
-Menu de sélection ``
 
-#### X. 
-Menu de sélection ``
+
+
