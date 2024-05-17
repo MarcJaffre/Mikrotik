@@ -59,45 +59,34 @@ Permet de filtrer les ports sortants autorisés avec du filtrage réseaux. On au
 ```
 Chain          : srcnat
 src Address    : 192.168.220.0/24 | 192.168.240.0/24
-Out. Interface : WAN
 Protocol       : TCP
-Dst Port       : 53
+Dst Port       : 53,80,443
+Out. Interface : WAN
 Action         : Masquerade
 Log            : Cocher
-Log Prefix     : [DNS] 
-COMMENT        : DNS
+Log Prefix     : [NAVIGATION] 
+COMMENT        : Web (TCP)
 ```
 
 ```
 Chain          : srcnat
 src Address    : 192.168.220.0/24 | 192.168.240.0/24
-Out. Interface : WAN
 Protocol       : UDP
 Dst Port       : 53
+Out. Interface : WAN
 Action         : Masquerade
 Log            : Cocher
-Log Prefix     : [DNS] 
-COMMENT        : DNS
+Log Prefix     : [NAVIGATION] 
+COMMENT        : Web (UDP)
 ```
 
-```
-Chain          : srcnat
-src Address    : 192.168.220.0/24 | 192.168.240.0/24
-Out. Interface : WAN
-Protocol       : TCP
-Dst Port       : 80,443
-Action         : Masquerade
-Log            : Cocher
-Log Prefix     : [HTTP/HTTPS]  
-COMMENT        : HTTP, HTTPS
-```
 
 ```
 Chain          : srcnat
 src Address    : 192.168.220.0/24 | 192.168.240.0/24
 Dist Address   : 192.168.200.1
-Out. Interface : WAN
 Protocol       : ICMP
+Out. Interface : WAN
 Action         : Masquerade
 Log            : Cocher
 Log Prefix     : [ICMP]
