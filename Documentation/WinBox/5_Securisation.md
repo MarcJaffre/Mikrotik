@@ -37,6 +37,18 @@ Menu de sélection `System` > `Users`. Ce menu permet la gestion des utilisateur
 #### X. Services
 Menu de sélection `IP` > `Services`. On désactive tout service du routeur qu'on utilise pas pour diminuer le vecteur d'attaque.
 
+Chaque service peut avoir un filtrage par IP ou par réseau ce qui permet de diminuer le vecteur d'attaque.
+```
+API     : OFF
+API-SSL : OFF
+FTP     : ON (Conditionnel) - Permet le transfert de fichier entre l'administrateur et le routeur. (Backup, Config ....)
+Telnet  : OFF
+Winbox  : ON (Conditionnel)
+www     : ON
+www-ssl : ON (A voir pour le certificat)
+```
+
+
 #### X. 
 Menu de sélection ``
 
