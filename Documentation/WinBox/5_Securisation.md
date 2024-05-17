@@ -100,18 +100,20 @@ Menu de sélection `System` > `Certificates` > `+`.
 #### 4. Appliquer le certificat au service
 Menu de sélection `IP` > `Services` > `www-ssl`.
 
-
-
 ![IP Service www-SSL](https://github.com/Drthrax74/Mikrotik/assets/35907/d2ae5f94-c2ee-4db6-9bb8-f65c00e02397)
-
-
 
 <br />
 
 ![???](https://github.com/Drthrax74/Mikrotik/assets/35907/ccff82a7-9d60-46af-8122-6c81795dbafc)
 
+#### 5. Test de fonctionnement
+
+![image](https://github.com/Drthrax74/Mikrotik/assets/35907/30689728-6846-45c0-8e79-712f1a10da6c)
 
 
+<br />
+<br />
+<br />
 
 
 
