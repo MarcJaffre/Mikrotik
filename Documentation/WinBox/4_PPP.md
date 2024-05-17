@@ -29,7 +29,23 @@ Add Default Route : Permet l'ajout d'une route automatiquement.
 
 <br />
 
-##### 2. Vérification
+##### 2. NAT (Masquerade)
+Menu de sélection `IP` > `Firewall` > `NAT`. Dans l'exemple suivant aucun filtrage de port en sortie. (RDP, Tunnel SSH, VPN peut être monté par un User)
+
+```
+[GENERAL]
+- Chain          : srcnat
+- Src Address    : Indiquer l'adresse Réseau qui sera autorisé à accéder à internet.
+- Out. Interface : Sélectionner l'interface sur laquel le lien sera connecté physiquement (Port)
+
+[Action]
+- Action         : Masquerade
+```
+
+
+
+
+##### 3. Vérification
 Menu de sélection `IP` > `Addresses` pour vérifier si une IP est fournis. (DHCP requis côté FAI)
 
 Menu de sélection `IP` > `Routes` pour vérifier si une route est fournis. (DHCP requis côté FAI)
