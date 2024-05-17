@@ -34,8 +34,8 @@ Menu de sélection `System` > `Users`. Ce menu permet la gestion des utilisateur
 ```
 
 
-#### X. 
-Menu de sélection ``
+#### X. Services
+Menu de sélection `IP` > `Services`. On désactive tout service du routeur qu'on utilise pas pour diminuer le vecteur d'attaque.
 
 #### X. 
 Menu de sélection ``
