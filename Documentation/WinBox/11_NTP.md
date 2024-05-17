@@ -3,7 +3,8 @@
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### I. Présentation
-Un serveur NTP est un serveur de temps. L'équipement va synchroniser son horloge avec un serveur NTP mondiale pour éviter toute décalage horaire.
+Le Network Time Protol sert pour synchroniser les horloges entre différent matériel. Ceci évite qu'un équipement envoie une requête soit dans le passé ou dans le futur par rapport à un autre équipement.
+
 
 <br />
 
