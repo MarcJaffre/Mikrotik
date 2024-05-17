@@ -42,10 +42,11 @@ Chaque service peut avoir un filtrage par IP ou par réseau ce qui permet de dim
 API     : OFF
 API-SSL : OFF
 FTP     : ON (Conditionnel) - Permet le transfert de fichier entre l'administrateur et le routeur. (Backup, Config ....)
+SSH     : ON (Conditionnel)
 Telnet  : OFF
 Winbox  : ON (Conditionnel)
 www     : ON
-www-ssl : ON (A voir pour le certificat)
+www-ssl : OFF (Requiert un certificat)
 ```
 
 
