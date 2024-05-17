@@ -111,7 +111,7 @@ Menu de sélection `IP` > `Services` > `www-ssl`.
 
 <br />
 #### 6. Exporter les certificates
-Séléctionner le certificat puis Export.
+Séléctionner un certificat puis Export.
 
 
 
