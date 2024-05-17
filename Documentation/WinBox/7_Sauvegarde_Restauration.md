@@ -37,6 +37,10 @@ No Default Configuration : Ne pas avoir la configuration par défaut
 Do Not Backup            : Ne pas faire de sauvegarde avant la Remise à zéro
 ```
 
+**Les fichiers présents dans Files ne sont pas purgés**.
+
+
+
 <br />
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
