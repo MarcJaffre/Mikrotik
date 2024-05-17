@@ -6,11 +6,14 @@
 #### A. Création de la sauvegarde
 Menu de sélection `Files` > `Backup`. La méthode suivante ne permet pas de voir le contenu du fichier en clair.
 
+<br />
 
 #### B. Création de la sauvegarde en clair
 Menu de sélection `New Terminal` > `export file=Backup_001`. La sauvegarde en clair permet une fois télécharger, de pouvoir visuellement voir les commandes en format texte.
 
 Ceci permet de pouvoir vérifier les paramètres à post déploiement .
+
+<br />
 
 #### C. Télécharger la sauvegarde
 Pour télécharger une sauvegarde, sélectionner le fichier puis sur le bouton copier et sur le poste de travail, il faut faire coller.
