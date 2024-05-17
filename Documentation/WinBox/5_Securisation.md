@@ -61,6 +61,7 @@ Mac Ping Server   : OFF
 ```
 
 <br />
+<br />
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### III. Routeur en HTTPS
@@ -68,7 +69,6 @@ Mac Ping Server   : OFF
 #### X. Création d'une autorité de certification
 ##### 1. WebUI
 Menu de sélection `System` > `Certificates` > `+`.
-
 ```
 [GENERAL]
 - NAME        : CA_Root
@@ -82,21 +82,25 @@ Menu de sélection `System` > `Certificates` > `+`.
 - Key Cert. sign
 ```
 
+##### 2. Console
+Menu de sélection `New Terminal`
+```bash
+certificate add name=RootCA common-name=RootCA key-usage=key-cert-sign,crl-sign
+```
 
+
+#### X. Création d'un certificat depuis l'Autorité de certificat (Signature)
+##### 1. WebUI
+Menu de sélection `System` > `Certificates` > `RootCA` > `Sign` > `Certificate: RootCA` > `Start`.
 
 
 ##### 2. Console
 Menu de sélection `New Terminal`
 ```bash
-certificate add name=CA common-name=CA-RT key-usage=key-cert-sign,crl-sign
+certificate sign RootCA
 ```
 
 
-
-
-
-#### X. 
-Menu de sélection ``
 
 #### X. 
 Menu de sélection ``
