@@ -95,12 +95,13 @@ COMMENT        : HTTP, HTTPS
 ```
 Chain          : srcnat
 src Address    : 192.168.220.0/24 | 192.168.240.0/24
+Dist Address   : 192.168.200.1
 Out. Interface : WAN
 Protocol       : ICMP
 Action         : Masquerade
 Log            : Cocher
-Log Prefix     : [ICMP]  
-COMMENT        : Ping
+Log Prefix     : [ICMP]
+COMMENT        : Ping vers Passerelle
 ```
 
 
