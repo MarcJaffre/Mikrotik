@@ -24,11 +24,13 @@ Menu de sélection `System` > `Users`. Ce menu permet la gestion des utilisateur
 ```
 1) Modifier la politique de mot de passe via Settings.
 2) Création de Groupe avec des privilèges
-3) Création d'un utilisateur avec la gestion des permissions. (Groupes)
-4) Modifier le mot de passe du compte admin
-5) Rétrograder les droits aux compte admin
-6) Désactiver le Compte
-6) Importer les clés SSH et liée à un utilisateur
+3) Création d'un utilisateur.
+4) Attribuer un groupe à l'utilisateur
+5) Filtrer l'accès au routeur par filtrage IP ou par réseau
+7) Modifier le mot de passe du compte admin
+8) Rétrograder les droits aux compte admin
+9) Désactiver le Compte
+10) Importer les clés SSH et liée à un utilisateur
 ```
 
 
