@@ -75,11 +75,12 @@ Menu de sélection `System` > `Certificates` > `+`.
 
 ![Key Usage](https://github.com/Drthrax74/Mikrotik/assets/35907/84ea686b-b8a1-4919-8a56-3c59eb22b2ae)
 
-
 #### 2. Signer le certificat
 Menu de sélection `System` > `Certificates` > `RootCA` > `Sign` > `Certificate: RootCA` > `Start`.
 
+![Sign - Done](https://github.com/Drthrax74/Mikrotik/assets/35907/e0386b4a-dcd1-41ae-9411-d12f7751e2bf)
 
+![Certificates - Resultat](https://github.com/Drthrax74/Mikrotik/assets/35907/abcba415-a44d-4a1e-91c8-efbc3607d0e4)
 
 <br />
 
@@ -87,8 +88,14 @@ Menu de sélection `System` > `Certificates` > `RootCA` > `Sign` > `Certificate:
 Menu de sélection `System` > `Certificates` > `+`.
 
 
+![General](https://github.com/Drthrax74/Mikrotik/assets/35907/bc0c3bfe-a190-4ef8-94dc-d7b641aa801b)
+
+<br />
+<br />
+<br /> 
 
 ![image](https://github.com/Drthrax74/Mikrotik/assets/35907/0d8f74ae-39ab-4b91-856f-bbe9146020d2)
+
 
 
 ```
@@ -112,8 +119,6 @@ Menu de sélection `System` > `Certificates` > `+`.
 
 #### 4. Appliquer le certificat au service
 Menu de sélection `IP` > `Services` > `www-ssl`.
-
-
 
 
 #### B. Création d'une autorité de certification et d'un certificat (Terminal)
