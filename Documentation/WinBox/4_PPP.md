@@ -11,8 +11,8 @@ Un lien PPPxx est un mécanisme d'authentification pour l'accès internet.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### II. Configuration d'un lien PPP
 #### A. PPPoE
+##### 1. Configuration
 Menu de sélection `PPP` > `+` > `PPPoE Client`.
-
 ```
 [GENERAL]
 - Name       : Indiquer un nom utile (pppoe-fai-<OPERATEUR>)
@@ -26,3 +26,7 @@ Dial On Demand    : Connexion à l'utilisation. (Si le système d'authentificati
 Use Peer DNS      : Obtenir les DNS automatiquement depuis la liaison PPPoE.
 Add Default Route : Permet l'ajout d'une route automatiquement.
 ```
+##### 2. Vérification
+Menu de sélection `IP` > `Addresses` pour vérifier si une IP est fournis. (DHCP requis côté FAI)
+
+Menu de sélection `IP` > `Routes` pour vérifier si une route est fournis. (DHCP requis côté FAI)
