@@ -88,11 +88,12 @@ Menu de sélection `New Terminal`
 certificate add name=RootCA common-name=RootCA key-usage=key-cert-sign,crl-sign
 ```
 
+<br />
+<br />
 
-#### X. Création d'un certificat depuis l'Autorité de certificat (Signature)
+#### B. Création d'un certificat depuis l'Autorité de certificat (Signature)
 ##### 1. WebUI
 Menu de sélection `System` > `Certificates` > `RootCA` > `Sign` > `Certificate: RootCA` > `Start`.
-
 
 ##### 2. Console
 Menu de sélection `New Terminal`
@@ -100,6 +101,8 @@ Menu de sélection `New Terminal`
 certificate sign RootCA
 ```
 
+<br />
+<br />
 
 
 #### X. 
