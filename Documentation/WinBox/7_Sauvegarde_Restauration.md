@@ -30,6 +30,13 @@ Menu de sélection `Files` > `Restore`. Pour envoyer une sauvegarde, sélectionn
 ### III. Remise à zéro
 Menu de sélection `System` > `Reset Configuration`.
 
+```
+Keep Users               : Conserver les utilisateurs sur le routeur
+Caps Mode                : Configuration du routeur via le service Capsman
+No Default Configuration : Ne pas avoir la configuration par défaut
+Do Not Backup            : Ne pas faire de sauvegarde avant la Remise à zéro
+```
+
 <br />
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
