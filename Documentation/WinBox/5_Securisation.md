@@ -55,8 +55,9 @@ www-ssl : OFF (Requiert un certificat)
 #### X. Mac Server
 Menu de sélection `Tools` > `Mac Server`. Mac Server permet l'authentification via l'adresse MAC ce qui contourne la protection d'authentification par IP.
 ```
-Mac Telnet Server : NONE
-MAC WinBox Server : NONE (A peaufiner)
+Mac Telnet Server : OFF
+MAC WinBox Server : OFF - A Peaufiner
+Mac Ping Server   : OFF
 ```
 
 #### X. 
