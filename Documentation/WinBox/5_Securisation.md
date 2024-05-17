@@ -60,8 +60,40 @@ MAC WinBox Server : OFF - A Peaufiner
 Mac Ping Server   : OFF
 ```
 
-#### X. 
-Menu de sélection ``
+<br />
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### III. Routeur en HTTPS
+
+#### X. Création d'une autorité de certification
+##### 1. WebUI
+Menu de sélection `System` > `Certificates` > `+`.
+
+```
+[GENERAL]
+- NAME        : CA_Root
+- Common-Name : CA-RT 
+- Key Type    : RSA
+- Key Size    : 2048
+- Days Valid  : 365
+
+[Key usage]
+- CRL Sign
+- Key Cert. sign
+```
+
+
+
+
+##### 2. Console
+Menu de sélection `New Terminal`
+```bash
+certificate add name=CA common-name=CA-RT key-usage=key-cert-sign,crl-sign
+```
+
+
+
+
 
 #### X. 
 Menu de sélection ``
