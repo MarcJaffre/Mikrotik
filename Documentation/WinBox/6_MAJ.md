@@ -4,7 +4,14 @@
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### I. Présentation
 #### A. Information de base
-Menu de sélection `System` > `RouterBoard`. (Présent sur du matériel physique)
+##### 1. Matériel Virtuel
+Menu de sélection `System` > `Resources`
+
+![resources](https://github.com/Drthrax74/Mikrotik/assets/35907/7958d6c2-7fcc-4048-93e7-dd35ece3a68e)
+
+
+##### 2. Matériel Physique
+Menu de sélection `System` > `RouterBoard` 
 
 
 <br />
