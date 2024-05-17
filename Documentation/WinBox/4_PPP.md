@@ -10,7 +10,7 @@ Un lien PPPxx est un mécanisme d'authentification pour l'accès internet.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### II. Configuration d'un lien PPP
-#### A. PPPoE (RFC2516)
+#### A. PPPoE ([RFC2516](https://www.rfc-editor.org/rfc/rfc2516.html))
 ##### 1. Configuration
 Menu de sélection `PPP` > `+` > `PPPoE Client`.
 ```
