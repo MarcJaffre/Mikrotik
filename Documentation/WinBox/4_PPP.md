@@ -36,7 +36,7 @@ Menu de sélection `IP` > `Firewall` > `NAT`. Dans l'exemple suivant aucun filtr
 [GENERAL]
 - Chain          : srcnat
 - Src Address    : Indiquer l'adresse Réseau qui sera autorisé à accéder à internet.
-- Out. Interface : Sélectionner l'interface sur laquel le lien sera connecté physiquement (Port)
+- Out. Interface : Sélectionner l'interface sur laquel le lien sera connecté physiquement (pppoe-fai-<OPERATEUR>).
 
 [Action]
 - Action         : Masquerade
