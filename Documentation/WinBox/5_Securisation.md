@@ -23,10 +23,12 @@ Menu de sélection `System` > `Password`.
 Menu de sélection `System` > `Users`. Ce menu permet la gestion des utilisateurs, Groupes, authentification par clé SSH et les utilisateurs actifs.
 ```
 1) Modifier la politique de mot de passe via Settings.
-2) Création d'un utilisateur avec les droits admin
-3) Modifier le mot de passe du compte admin
-4) Rétrograder les droits aux compte admin
-5) SSH KEY
+2) Création de Groupe avec des privilèges
+3) Création d'un utilisateur avec la gestion des permissions. (Groupes)
+4) Modifier le mot de passe du compte admin
+5) Rétrograder les droits aux compte admin
+6) Désactiver le Compte
+6) Importer les clés SSH et liée à un utilisateur
 ```
 
 
