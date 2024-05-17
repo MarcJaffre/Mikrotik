@@ -68,27 +68,29 @@ Mac Ping Server   : OFF
 #### A. Création d'une autorité de certification et d'un certificat
 #### 1. Création du Certificat
 Menu de sélection `System` > `Certificates` > `+`.
-```
-[GENERAL]
-- NAME        : RootCA
-- Common-Name : RootCA
-- Key Type    : RSA
-- Key Size    : 2048
-- Days Valid  : 365
-- Trusted     : Cocher
 
-[Key usage]
-- CRL Sign
-- Key Cert. sign
-```
+![General](https://github.com/Drthrax74/Mikrotik/assets/35907/cdc8aaaf-f348-423e-bb96-1a51fbff21ed)
+
+<br />
+
+[Key Usage](https://github.com/Drthrax74/Mikrotik/assets/35907/84ea686b-b8a1-4919-8a56-3c59eb22b2ae)
+
 
 #### 2. Signer le certificat
 Menu de sélection `System` > `Certificates` > `RootCA` > `Sign` > `Certificate: RootCA` > `Start`.
+
+
 
 <br />
 
 #### 3. Création d'un certificat SSL (Routeur)
 Menu de sélection `System` > `Certificates` > `+`.
+
+
+
+![image](https://github.com/Drthrax74/Mikrotik/assets/35907/0d8f74ae-39ab-4b91-856f-bbe9146020d2)
+
+
 ```
 [GENERAL]
 - Name        : Certificat_WAN
@@ -130,11 +132,4 @@ certificate sign Certificat_WAN ca=RootCA
 
 <br />
 <br />
-
-
-![image](https://github.com/Drthrax74/Mikrotik/assets/35907/0d8f74ae-39ab-4b91-856f-bbe9146020d2)
-
-
-
-
 
