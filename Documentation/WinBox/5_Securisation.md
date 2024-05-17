@@ -87,38 +87,32 @@ Menu de sélection `System` > `Certificates` > `RootCA` > `Sign` > `Certificate:
 #### 3. Création d'un certificat SSL (Routeur)
 Menu de sélection `System` > `Certificates` > `+`.
 
+![General](https://github.com/Drthrax74/Mikrotik/assets/35907/8845c568-949e-45f5-9615-b02a294108d0)
 
-![General](https://github.com/Drthrax74/Mikrotik/assets/35907/bc0c3bfe-a190-4ef8-94dc-d7b641aa801b)
-
-<br />
-<br />
 <br /> 
 
-![image](https://github.com/Drthrax74/Mikrotik/assets/35907/0d8f74ae-39ab-4b91-856f-bbe9146020d2)
+![Key Usage](https://github.com/Drthrax74/Mikrotik/assets/35907/0d8f74ae-39ab-4b91-856f-bbe9146020d2)
 
+<br />
 
-
-```
-[GENERAL]
-- Name        : Certificat_WAN
-- Common Name : 192.168.200.50
-
-[Key usage]
-- Digital Signature
-- key  encipherment
-- data encipherment
-- key cert. sign
-- crl sign
-- tls client
-- tls server
-
-[Sign]
- - Certificate: Certificat_WAN
- - CA         : RootCA
-```
+![Sign - Certificat with CA](https://github.com/Drthrax74/Mikrotik/assets/35907/9e81832c-6c5b-496d-81f9-4ef7ba0cf3e3)
 
 #### 4. Appliquer le certificat au service
 Menu de sélection `IP` > `Services` > `www-ssl`.
+
+
+
+![IP Service www-SSL](https://github.com/Drthrax74/Mikrotik/assets/35907/d2ae5f94-c2ee-4db6-9bb8-f65c00e02397)
+
+
+
+<br />
+
+![???](https://github.com/Drthrax74/Mikrotik/assets/35907/ccff82a7-9d60-46af-8122-6c81795dbafc)
+
+
+
+
 
 
 #### B. Création d'une autorité de certification et d'un certificat (Terminal)
