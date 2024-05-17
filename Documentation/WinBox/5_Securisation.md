@@ -73,7 +73,7 @@ Menu de sélection `System` > `Certificates` > `+`.
 
 <br />
 
-[Key Usage](https://github.com/Drthrax74/Mikrotik/assets/35907/84ea686b-b8a1-4919-8a56-3c59eb22b2ae)
+![Key Usage](https://github.com/Drthrax74/Mikrotik/assets/35907/84ea686b-b8a1-4919-8a56-3c59eb22b2ae)
 
 
 #### 2. Signer le certificat
