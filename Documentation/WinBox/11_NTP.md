@@ -20,5 +20,15 @@ Time Zone Name: Europe/Paris
 <br />
 
 #### B. Activation du client NTP
+Menu de sélection `System` > `NTP Client` > `Enabled` > `NTP Servers`.
+```
+0.fr.pool.ntp.org
+1.fr.pool.ntp.org
+2.fr.pool.ntp.org
+3.fr.pool.ntp.org
+```
+
+<br />
 
 #### C. Activation du serveur NTP
+Menu de sélection `System` > `NTP Server` > `Enabled`.
