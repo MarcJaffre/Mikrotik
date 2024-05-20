@@ -86,7 +86,6 @@ La chaine utilisé est `Prerouting`, la connexion marqué est `Connexions-sortan
 ![General-LAN](https://github.com/Drthrax74/Mikrotik/assets/35907/cc1babdd-e611-44d4-aa4d-e1334e399de1)  ![Action-LAN](https://github.com/Drthrax74/Mikrotik/assets/35907/dfbeefc7-34b4-4e8c-b9a6-d17f881b8d6b)
 
 <br />
-<br />
 
 #### C. Marquer un protocole
 Le protocole marquer sera HTTP. On indiquer que le paquet marquer doit être contenu dans la règle spécifique en décochant la case `passthrough`.
@@ -101,6 +100,8 @@ HTTP utilise le protocole TCP sur le port 80. On va indiquer qu'il sera marqué 
 
 ![General-LAN](https://github.com/Drthrax74/Mikrotik/assets/35907/f0492f1e-4197-46fa-bd03-99a5284c31f0)  ![image](https://github.com/Drthrax74/Mikrotik/assets/35907/f93fe870-fba9-40fe-8e42-006190c6b5c4)
 
+<br />
+
 #### D. Marquer les autres protocoles
 Pour marquer les autres protocoles pour qu'il soit dans une file, il faut ajouter une règle qui servira de globale en décochant Passthrough.
 ##### 1. Entrants
@@ -110,6 +111,11 @@ Pour marquer les autres protocoles pour qu'il soit dans une file, il faut ajoute
 ![image](https://github.com/Drthrax74/Mikrotik/assets/35907/7e8b7b6b-cf16-481d-97e5-d4579ca5cdf2)  ![image](https://github.com/Drthrax74/Mikrotik/assets/35907/bb60c1ed-aabc-4630-b4d0-5c5e7f460f58)
 
 
+<br />
+<br />
 
+#### E. Exemple de rendu
+
+![image](https://github.com/Drthrax74/Mikrotik/assets/35907/06f06c4c-f255-477e-ab75-126a94b7a5a9)
 
 
