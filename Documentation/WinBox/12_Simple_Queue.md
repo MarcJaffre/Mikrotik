@@ -118,10 +118,8 @@ Pour marquer les autres protocoles pour qu'il soit dans une file, il faut ajoute
 
 <br />
 
-#### E. Exemple de rendu
-
-![image](https://github.com/Drthrax74/Mikrotik/assets/35907/06f06c4c-f255-477e-ab75-126a94b7a5a9)
-
+#### E. Exemple de rendu (Fonctionnel !!!)
+![image](https://github.com/Drthrax74/Mikrotik/assets/35907/13b8aa65-f796-4d38-9363-19213f9b776d)
 
 <br />
 <br />
@@ -132,6 +130,4 @@ Nous allons créer une nouvelle Queue qui sera la base et n'aura pas de Parent.
 ##### I. Queue Tree
 La priorité va de 1-8, la file 1 est la plus haute en priorité alors que la 8 est la plus basse.
 
-
-
-
+![image](https://github.com/Drthrax74/Mikrotik/assets/35907/69d35952-b39d-4239-a2ba-c7c8961fda7c)
