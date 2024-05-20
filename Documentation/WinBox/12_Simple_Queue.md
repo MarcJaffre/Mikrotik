@@ -120,6 +120,12 @@ Pour marquer les autres protocoles pour qu'il soit dans une file, il faut ajoute
 <br />
 <br />
 
-#### F. Queues
-Les paquets ont étés marqués et sont exploitables dans la Queue.
+#### F. Gestion de la bande passante
+Nous allons créer une nouvelle Queue qui sera la base et n'aura pas de Parent.
+
+##### I. Queue Tree
+La priorité va de 1-8, la file 1 est la plus haute en priorité alors que la 8 est la plus basse.
+
+
+
 
