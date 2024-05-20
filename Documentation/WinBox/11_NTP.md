@@ -11,6 +11,9 @@ https://www.youtube.com/watch?v=oz_O8UYQSA4
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### I. Configuration du NTP
-#### A. XXXXXX
-#### B. XXXXXX
-#### C. XXXXXX
+
+#### A. Ajuster le fuseau horaire
+
+#### B. Activation du client NTP
+
+#### C. Activation du serveur NTP
