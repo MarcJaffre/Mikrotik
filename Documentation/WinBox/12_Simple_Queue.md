@@ -110,12 +110,16 @@ Pour marquer les autres protocoles pour qu'il soit dans une file, il faut ajoute
 ##### 2. Sortants
 ![image](https://github.com/Drthrax74/Mikrotik/assets/35907/7e8b7b6b-cf16-481d-97e5-d4579ca5cdf2)  ![image](https://github.com/Drthrax74/Mikrotik/assets/35907/bb60c1ed-aabc-4630-b4d0-5c5e7f460f58)
 
-
-<br />
 <br />
 
 #### E. Exemple de rendu
 
 ![image](https://github.com/Drthrax74/Mikrotik/assets/35907/06f06c4c-f255-477e-ab75-126a94b7a5a9)
 
+
+<br />
+<br />
+
+#### F. Queues
+Les paquets ont étés marqués et sont exploitables dans la Queue.
 
