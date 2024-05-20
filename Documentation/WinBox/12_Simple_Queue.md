@@ -94,13 +94,22 @@ Le protocole marquer sera HTTP. On indiquer que le paquet marquer doit être con
 ##### 1. Entrante
 HTTP utilise le protocole TCP sur le port 80. On va indiquer qu'il sera marqué en tant que Paquet entrant, toujours dans la chaine Forward.
 
-![General-WAN](https://github.com/Drthrax74/Mikrotik/assets/35907/b3c4135b-7e6a-4e1a-806a-dd1fb93a5c31)
-
-![Action-WAN](https://github.com/Drthrax74/Mikrotik/assets/35907/d91790ef-f885-49f2-abe3-f7c247d8f433)
+![General-WAN](https://github.com/Drthrax74/Mikrotik/assets/35907/b3c4135b-7e6a-4e1a-806a-dd1fb93a5c31)  ![Action-WAN](https://github.com/Drthrax74/Mikrotik/assets/35907/d91790ef-f885-49f2-abe3-f7c247d8f433)
 
 ##### 1. Sortant
 HTTP utilise le protocole TCP sur le port 80. On va indiquer qu'il sera marqué en tant que Paquet sortant, toujours dans la chaine Prerouting.
 
-![General-LAN](https://github.com/Drthrax74/Mikrotik/assets/35907/f0492f1e-4197-46fa-bd03-99a5284c31f0)
+![General-LAN](https://github.com/Drthrax74/Mikrotik/assets/35907/f0492f1e-4197-46fa-bd03-99a5284c31f0)  ![image](https://github.com/Drthrax74/Mikrotik/assets/35907/f93fe870-fba9-40fe-8e42-006190c6b5c4)
 
-![image](https://github.com/Drthrax74/Mikrotik/assets/35907/f93fe870-fba9-40fe-8e42-006190c6b5c4)
+#### D. Marquer les autres protocoles
+Pour marquer les autres protocoles pour qu'il soit dans une file, il faut ajouter une règle qui servira de globale en décochant Passthrough.
+##### 1. Entrants
+![image](https://github.com/Drthrax74/Mikrotik/assets/35907/c6e46820-ef93-415e-838a-d06416c7fd34)  ![image](https://github.com/Drthrax74/Mikrotik/assets/35907/e0dd8c1c-61d2-49ab-8684-211a4af8bfc3)
+
+##### 2. Sortants
+![image](https://github.com/Drthrax74/Mikrotik/assets/35907/7e8b7b6b-cf16-481d-97e5-d4579ca5cdf2)  ![image](https://github.com/Drthrax74/Mikrotik/assets/35907/bb60c1ed-aabc-4630-b4d0-5c5e7f460f58)
+
+
+
+
+
