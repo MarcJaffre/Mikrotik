@@ -59,6 +59,20 @@ Pour ajouter un autre serveur DNS, il suffit de faire la flèche vers le bas à 
 
 <br />
 
+#### D. License
+##### 1. Limitation
+L'image CHR de Mikrotik est totalement gratuite, mais requiert une activation via un compte Mikrotik pour bénéficier de toutes ses fonctions et aussi de lever ses limitations. (bande passante par exemple)
+
+##### 2. Inscription
+Il est nécessaire de s'enregistrer sur le site de mikrotik
+
+##### 3. Activation du routeur
+Menu de sélection > `System` > `License` > `Renew License` .
+
+##### 4. Tableau de limitation sans licence
+
+![image](https://github.com/Drthrax74/Mikrotik/assets/35907/666e9a9a-293e-4270-ac85-ce082efaef28)
+
 
 
 
