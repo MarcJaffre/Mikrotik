@@ -11,8 +11,13 @@ https://www.youtube.com/watch?v=oz_O8UYQSA4
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### I. Configuration du NTP
-
 #### A. Ajuster le fuseau horaire
+Menu de sélection `System` > `Clock`.
+```
+Time Zone Name: Europe/Paris
+```
+
+<br />
 
 #### B. Activation du client NTP
 
