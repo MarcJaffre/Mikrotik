@@ -81,7 +81,7 @@ La chaine utilisé est `Prerouting` sur l'interface entrant `LAN` et l'action `M
 ##### 1. WAN
 La chaine utilisé est `Forward`, la connexion marqué est `Connexions-Entrantes` et l'action `Mark Packet`.
 
-![image](https://github.com/Drthrax74/Mikrotik/assets/35907/f2f21697-d3a2-4b83-90cb-fb22bf5e1940)
+![image](https://github.com/Drthrax74/Mikrotik/assets/35907/e19a953e-09f2-4d86-875f-f26ee7b9c9a9)
 
 
 ##### 2. LAN
