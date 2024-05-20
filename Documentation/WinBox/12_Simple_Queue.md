@@ -89,12 +89,10 @@ La chaine utilisé est `Prerouting`, la connexion marqué est `Connexions-sortan
 <br />
 
 #### C. Marquer un protocole
-Le protocole marquer sera HTTP.
+Le protocole marquer sera HTTP. On indiquer que le paquet marquer doit être contenu dans la règle spécifique en décochant la case `passthrough`.
 
 ##### 1. Entrante
 HTTP utilise le protocole TCP sur le port 80. On va indiquer qu'il sera marqué en tant que Paquet entrant, toujours dans la chaine Forward.
-
-On décoche Passthrought pour que le trafic soit contenu dans la règle. (Evite qu'une autre Règle a le trafic)
 
 ![General-WAN](https://github.com/Drthrax74/Mikrotik/assets/35907/b3c4135b-7e6a-4e1a-806a-dd1fb93a5c31)
 
@@ -103,8 +101,6 @@ On décoche Passthrought pour que le trafic soit contenu dans la règle. (Evite 
 ##### 1. Sortant
 HTTP utilise le protocole TCP sur le port 80. On va indiquer qu'il sera marqué en tant que Paquet sortant, toujours dans la chaine Prerouting.
 
-On décoche Passthrought pour que le trafic soit contenu dans la règle. (Evite qu'une autre Règle a le trafic)
+![General-LAN](https://github.com/Drthrax74/Mikrotik/assets/35907/f0492f1e-4197-46fa-bd03-99a5284c31f0)
 
-<br />
-
-
+![image](https://github.com/Drthrax74/Mikrotik/assets/35907/f93fe870-fba9-40fe-8e42-006190c6b5c4)
