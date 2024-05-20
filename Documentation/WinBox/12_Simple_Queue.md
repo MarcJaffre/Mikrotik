@@ -56,7 +56,7 @@ Menu de sélection `Queues` > `Simple Queues` > `+` .
 ### III. Multi Queue
 Pour gérer la bande passante, il est nécessaire d'utiliser Mangle. Mangle va marquer les flux entrants et sortants pour ensuite permettre de limiter l'usage selon le protocole.
 
-#### A. Marquer la connexion (Entrante / Sortante)
+#### A. Marquer les connexions (Entrante / Sortante)
 ##### 1. WAN
 La chaine utilisé est `Forward` sur l'interface entrante `WAN` et l'action `Mark Connection`.
 
@@ -65,8 +65,6 @@ La chaine utilisé est `Forward` sur l'interface entrante `WAN` et l'action `Mar
 <br />
 
 ![Action-WAN](https://github.com/Drthrax74/Mikrotik/assets/35907/d561457a-e498-4e8a-929d-a4cb234651a8)
-
-<br />
 
 ##### 2. LAN
 La chaine utilisé est `Prerouting` sur l'interface entrant `LAN` et l'action `Mark Connection`.
@@ -104,8 +102,11 @@ La chaine utilisé est `Prerouting`, la connexion marqué est `Connexions-sortan
 
 
 ##### 3. Résumé
-
 ![image](https://github.com/Drthrax74/Mikrotik/assets/35907/dfdfa0cd-12a7-41f4-a8f2-465ab33fef98)
 
+<br />
+<br />
+
+#### C. Marquer les Protocoles
 
 
