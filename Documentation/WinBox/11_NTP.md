@@ -31,4 +31,4 @@ Menu de sélection `System` > `NTP Client` > `Enabled` > `NTP Servers`.
 <br />
 
 #### C. Activation du serveur NTP
-Menu de sélection `System` > `NTP Server` > `Enabled`.
+Menu de sélection `System` > `NTP Server` > `Enabled` > `Manycast`.
