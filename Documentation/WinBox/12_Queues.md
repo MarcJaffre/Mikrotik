@@ -11,6 +11,9 @@ Nous allons crées une Simple Queue qui déterminera la bande passante du LAN da
 
 Ensuite nous allons découper la bande passante du LAN selon le trafic ou PC.
 
+```
+bandwidthcontroller.com
+```
 
 
 <br />
