@@ -64,16 +64,12 @@ La chaine utilisé est `Forward` sur l'interface entrante `WAN` et l'action `Mar
 
 ![General-WAN](https://github.com/Drthrax74/Mikrotik/assets/35907/e755b123-2dd0-426e-a7b9-ad07f14be7b7)
 
-<br />
-
 ![Action-WAN](https://github.com/Drthrax74/Mikrotik/assets/35907/d561457a-e498-4e8a-929d-a4cb234651a8)
 
 ##### 2. LAN
 La chaine utilisé est `Prerouting` sur l'interface entrant `LAN` et l'action `Mark Connection`.
 
 ![General-LAN](https://github.com/Drthrax74/Mikrotik/assets/35907/dc4557d2-e271-4dfb-926d-a370bc045c13)
-
-<br />
 
 ![Action-LAN](https://github.com/Drthrax74/Mikrotik/assets/35907/b3b6e04d-eb96-4573-8e56-1ca63bba0753)
 
@@ -85,8 +81,6 @@ La chaine utilisé est `Prerouting` sur l'interface entrant `LAN` et l'action `M
 La chaine utilisé est `Forward`, la connexion marqué est `Connexions-Entrantes` et l'action `Mark Packet`.
 
 ![General-WAN](https://github.com/Drthrax74/Mikrotik/assets/35907/21278eac-d80e-4226-804e-cc5e22378848)
-
-<br />
 
 ![Action-WAN](https://github.com/Drthrax74/Mikrotik/assets/35907/c2b16970-c855-41a9-bbb8-4e56f8f8e888)
 
@@ -111,8 +105,6 @@ HTTP utilise le protocole TCP sur le port 80. On va indiquer qu'il sera marqué 
 On décoche Passthrought pour que le trafic soit contenu dans la règle. (Evite qu'une autre Règle a le trafic)
 
 ![General-WAN](https://github.com/Drthrax74/Mikrotik/assets/35907/b3c4135b-7e6a-4e1a-806a-dd1fb93a5c31)
-
-<br />
 
 ![Action-WAN](https://github.com/Drthrax74/Mikrotik/assets/35907/d91790ef-f885-49f2-abe3-f7c247d8f433)
 
