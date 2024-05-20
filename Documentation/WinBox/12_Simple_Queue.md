@@ -11,7 +11,10 @@ Une Simple Queue permet de définir une limitation de bande passante.
 ### II. Simple Queue
 #### A. Création d'une Queue
 Menu de sélection `Queues` > `Simple Queues` > `+` .
-##### 1. Globale
 ```
-Name: FullBandWith
+Name        : LAN
+Target      : 192.168.220.0/24
+Max Limit   :
+ > UPLOAD   : 200 Bits/s ou 2M
+ > Download : 200 Bits/s ou 2M
 ```
