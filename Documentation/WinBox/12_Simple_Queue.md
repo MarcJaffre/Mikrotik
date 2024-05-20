@@ -9,3 +9,9 @@ Une Simple Queue permet de définir une limitation de bande passante.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### II. Simple Queue
+#### A. Création d'une Queue
+Menu de sélection `Queues` > `Simple Queues` > `+` .
+##### 1. Globale
+```
+Name: FullBandWith
+```
