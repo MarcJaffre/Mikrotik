@@ -79,11 +79,12 @@ La chaine utilisé est `Forward`, la connexion marqué est `Connexions-Entrantes
 ![General-WAN](https://github.com/Drthrax74/Mikrotik/assets/35907/21278eac-d80e-4226-804e-cc5e22378848)  ![Action-WAN](https://github.com/Drthrax74/Mikrotik/assets/35907/c2b16970-c855-41a9-bbb8-4e56f8f8e888)
 
 ##### 2. LAN
-La chaine utilisé est `Prerouting`, la connexion marqué est `Connexions-sortantes` et l'action `Mark Packet`.
+La chaine utilisé est `Forward`, la connexion marqué est `Connexions-sortantes` et l'action `Mark Packet`.
 
 <br />
 
-![General-LAN](https://github.com/Drthrax74/Mikrotik/assets/35907/cc1babdd-e611-44d4-aa4d-e1334e399de1)  ![Action-LAN](https://github.com/Drthrax74/Mikrotik/assets/35907/dfbeefc7-34b4-4e8c-b9a6-d17f881b8d6b)
+
+
 
 <br />
 
