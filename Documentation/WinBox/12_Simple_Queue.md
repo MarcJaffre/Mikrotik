@@ -3,7 +3,15 @@
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### I. Présentation
+#### A. Qu'est qu'une Simple Queue
 Une Simple Queue permet de définir une limitation de bande passante.
+
+#### B. Etude de cas
+Nous allons crées une Simple Queue qui déterminera la bande passante du LAN dans sa globalité.
+
+Ensuite nous allons découper la bande passante du LAN selon le trafic ou PC.
+
+
 
 <br />
 
