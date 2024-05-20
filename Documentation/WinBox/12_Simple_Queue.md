@@ -51,6 +51,8 @@ Menu de sélection `Queues` > `Simple Queues` > `+` .
 
 
 <br />
+<br />
+<br />
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### III. Multi Queue
@@ -79,7 +81,6 @@ La chaine utilisé est `Prerouting` sur l'interface entrant `LAN` et l'action `M
 <br />
 
 #### B. Marquer les paquets (Entrante / Sortante)
-
 ##### 1. WAN
 La chaine utilisé est `Forward`, la connexion marqué est `Connexions-Entrantes` et l'action `Mark Packet`.
 
@@ -88,8 +89,6 @@ La chaine utilisé est `Forward`, la connexion marqué est `Connexions-Entrantes
 <br />
 
 ![Action-WAN](https://github.com/Drthrax74/Mikrotik/assets/35907/c2b16970-c855-41a9-bbb8-4e56f8f8e888)
-
-<br />
 
 ##### 2. LAN
 La chaine utilisé est `Prerouting`, la connexion marqué est `Connexions-sortantes` et l'action `Mark Packet`.
