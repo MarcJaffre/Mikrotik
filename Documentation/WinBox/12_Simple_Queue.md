@@ -18,9 +18,25 @@ Il est nécessaire d'avoir activer la licence sous Mikrotik pour profiter de tou
 #### B. Création d'une Queue
 Menu de sélection `Queues` > `Simple Queues` > `+` .
 ```
-Name        : LAN
-Target      : 192.168.220.0/24
-Max Limit   :
- > UPLOAD   : 200 Bits/s ou 2M
- > Download : 200 Bits/s ou 2M
+[General]
+- Name        : LAN
+- Target      : 192.168.220.0/24
+- Max Limit   :
+  > UPLOAD    : 5M
+  > Download  : 20M
+```
+
+#### C. Création d'une Queue Enfant
+Menu de sélection `Queues` > `Simple Queues` > `+` .
+
+```
+[General]
+- Name        : 192.168.220.2
+- Target      : 192.168.220.2/24
+- Max Limit   :
+  > UPLOAD    : 2M
+  > Download  : 10M
+
+[Advanced]
+- Parent      : LAN
 ```
