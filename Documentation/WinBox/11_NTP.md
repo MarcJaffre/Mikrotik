@@ -31,4 +31,9 @@ Menu de sélection `System` > `NTP Client` > `Enabled` > `NTP Servers`.
 <br />
 
 #### C. Activation du serveur NTP
+##### 1. Création du serveur NTP
 Menu de sélection `System` > `NTP Server` > `Enabled` > `Manycast`.
+
+##### 2. Règle de Pare-Feu (Optionnel)
+Pour éviter toute anomalie de fonctionnement, il faut créer une règle NTP par réseau LAN.
+
