@@ -59,10 +59,13 @@ set minimum-password-length=4
 set full policy="local,telnet,ssh,ftp,reboot,read,write,policy,test,winbox,password,web,sniff,sensitive,!api,!romon,!rest-api"
 ```
 ##### 3. Création d'un utilisateur
+Si le mot de passe utilise une `$` dans le mot de passe, il faut ajout `\`avant le cactères pour que se fonctionne.
 ```bash
 /user
-add name="marc"    group="full" password="admin" comment="Marc Jaffre" address="192.168.150.0/24, 192.168.180.0/24, 192.168.20.0/24"
+add name="marc" group="full" password="admin" comment="Marc Jaffre" address="192.168.150.0/24, 192.168.180.0/24, 192.168.20.0/24"
+add name="SuperAdmin" group="full" password="admin\$" comment="Marc Jaffre" address="192.168.150.0/24, 192.168.180.0/24, 192.168.20.0/24"
 ```
+
 ##### 4. Suppression Utilisateur admin
 ```bash
 /user
