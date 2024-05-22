@@ -167,7 +167,4 @@ set enabled=no
 /user settings
 set minimum-password-length=4
 
-# =================================================================================================================================================================================
-/user
-add name="marc"    group="full" password="admin"         comment="Marc Jaffre"    address="192.168.150.0/24, 192.168.180.0/24, 192.168.20.0/24"
-remove admin
+
