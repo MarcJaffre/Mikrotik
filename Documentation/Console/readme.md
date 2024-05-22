@@ -52,11 +52,13 @@ add address=3.fr.pool.ntp.org
 /user
 add name="marc"    group="full" password="admin" comment="Marc Jaffre" address="192.168.150.0/24, 192.168.180.0/24, 192.168.20.0/24"
 ```
+
 #### B. Suppression Utilisateur admin
 ```bash
 /user
 remove admin
 ```
+
 #### C. Edition des permissions
 ```
 /user group
