@@ -15,7 +15,6 @@
 #
 # =================================================================================================================================================================================
 
-
 # =================================================================================================================================================================================
 /interface ethernet
 set [ find default-name=ether1 ] name=ether1-wan
@@ -63,16 +62,16 @@ set allow-remote-requests=yes servers=192.168.200.1,8.8.8.8
 # =================================================================================================================================================================================
 /ip firewall mangle
 add action=mark-connection chain=prerouting comment=UPLOAD   in-interface=ether2-lan new-connection-mark=CONNEXION-SORTANTE  passthrough=yes
-add action=mark-packet     chain=prerouting connection-mark=CONNEXION-SORTANTE dst-port="" new-packet-mark=UP-Speedtest      passthrough=no port=8080   protocol=tcp
-add action=mark-packet     chain=prerouting connection-mark=CONNEXION-SORTANTE dst-port="" new-packet-mark=UP-Web            passthrough=no port=80,443 protocol=tcp
-add action=mark-packet     chain=prerouting connection-mark=CONNEXION-SORTANTE dst-port="" new-packet-mark=UP-SNMP           passthrough=no port=161    protocol=udp
-add action=mark-packet     chain=prerouting connection-mark=CONNEXION-SORTANTE             new-packet-mark=UP-Autre          passthrough=no
+add action=mark-packet     chain=prerouting connection-mark=CONNEXION-SORTANTE new-packet-mark=UP-Speedtest      passthrough=no port=8080   protocol=tcp
+add action=mark-packet     chain=prerouting connection-mark=CONNEXION-SORTANTE new-packet-mark=UP-Web            passthrough=no port=80,443 protocol=tcp
+add action=mark-packet     chain=prerouting connection-mark=CONNEXION-SORTANTE new-packet-mark=UP-SNMP           passthrough=no port=161    protocol=udp
+add action=mark-packet     chain=prerouting connection-mark=CONNEXION-SORTANTE new-packet-mark=UP-Autre          passthrough=no
 
 add action=mark-connection chain=forward    comment=DOWNLOAD in-interface=ether1-wan new-connection-mark=CONNEXION-ENTRANTE  passthrough=yes
-add action=mark-packet     chain=forward    connection-mark=CONNEXION-ENTRANTE             new-packet-mark=DL-Speedtest      passthrough=no port=8080   protocol=tcp
-add action=mark-packet     chain=forward    connection-mark=CONNEXION-ENTRANTE             new-packet-mark=DL-Web            passthrough=no port=80,443 protocol=tcp
-add action=mark-packet     chain=forward    connection-mark=CONNEXION-ENTRANTE             new-packet-mark=DL-SNMP           passthrough=no port=161    protocol=udp
-add action=mark-packet     chain=forward    connection-mark=CONNEXION-ENTRANTE             new-packet-mark=DL-AUTRE          passthrough=no
+add action=mark-packet     chain=forward    connection-mark=CONNEXION-ENTRANTE new-packet-mark=DL-Speedtest      passthrough=no port=8080   protocol=tcp
+add action=mark-packet     chain=forward    connection-mark=CONNEXION-ENTRANTE new-packet-mark=DL-Web            passthrough=no port=80,443 protocol=tcp
+add action=mark-packet     chain=forward    connection-mark=CONNEXION-ENTRANTE new-packet-mark=DL-SNMP           passthrough=no port=161    protocol=udp
+add action=mark-packet     chain=forward    connection-mark=CONNEXION-ENTRANTE new-packet-mark=DL-AUTRE          passthrough=no
 
 # =================================================================================================================================================================================
 /ip firewall nat
