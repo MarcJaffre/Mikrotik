@@ -3,12 +3,19 @@
 On peux manipuler que sur le flux entrant d'un routeur !
 ```
 
-### IP Tables
+### Filter
 ```
-Prerouting  : Paquet entrant dans le routeur.
-Forward     : Paquet qui traverse le routeur.
-Postrouting : Paquet sortant du routeur.
+- Input       : Entrée du Firewall
+- Output      : Sortie du Firewall
+- Forward     : Paquet qui traverse le routeur.
 ```
+
+### Chaine
+```
+- Postrouting : Paquet sortant du routeur.
+- Prerouting  : Paquet entrant dans le routeur.
+```
+
 
 ### QoS
 ```
