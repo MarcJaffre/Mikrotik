@@ -14,5 +14,5 @@ Forward    = Téléchargement
 
 ### Maitrise
 ```
-On peux manipuler que sur le flux entrant et pas sortant !
+On peux manipuler que sur le flux entrant d'un routeur !
 ```
