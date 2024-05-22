@@ -7,15 +7,14 @@ On peux manipuler que sur le flux entrant d'un routeur !
 ```
 - Input       : Entrée du Firewall
 - Output      : Sortie du Firewall
-- Forward     : Paquet qui traverse le routeur.
+- Forward     : Traverse plusieurs interface
 ```
 
 ### Chaine
 ```
-- Postrouting : Paquet sortant du routeur.
-- Prerouting  : Paquet entrant dans le routeur.
+- Postrouting : Après le traitement du paquet
+- Prerouting  : Avant le traitement du paquet
 ```
-
 
 ### QoS
 ```
