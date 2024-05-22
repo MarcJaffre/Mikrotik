@@ -110,9 +110,10 @@ Menu de sélection `IP` > `Services` > `www-ssl`.
 ![image](https://github.com/Drthrax74/Mikrotik/assets/35907/30689728-6846-45c0-8e79-712f1a10da6c)
 
 <br />
+
+
 #### 6. Exporter les certificates
 Séléctionner un certificat puis Export.
-
 
 
 <br />
