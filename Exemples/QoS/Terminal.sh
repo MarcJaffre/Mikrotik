@@ -38,7 +38,7 @@ set [ find default=yes ] write-access=yes
 
 # =================================================================================================================================================================================
 /user group
-set full policy="local,telnet,ssh,ftp,reboot,read,write,policy,test,winbox,pas sword,web,sniff,sensitive,!api,!romon,!rest-api"
+set full policy="local,telnet,ssh,ftp,reboot,read,write,policy,test,winbox,password,web,sniff,sensitive,!api,!romon,!rest-api"
 
 # =================================================================================================================================================================================
 /ip firewall connection tracking
