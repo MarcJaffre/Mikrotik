@@ -36,19 +36,6 @@ add name=DMZ ranges=192.168.240.2-192.168.240.10
 add add-arp=yes address-pool=LAN interface=ether2-lan name=DHCP_LAN
 add add-arp=yes address-pool=DMZ interface=ether3-dmz name=DHCP_DMZ
 
-# =================================================================================================================================================================================
-/queue tree
-add              name=Network                                 parent=global         priority=1
-add              name=Trafic-Entrant                          parent=Network        priority=2
-add              name=Trafic-Sortant                          parent=Network        priority=2
-add max-limit=5M name=SPEEDTEST-DL   packet-mark=DL-Speedtest parent=Trafic-Entrant priority=3
-add max-limit=5M name=SPEEDTEST-UP   packet-mark=UP-Speedtest parent=Trafic-Sortant priority=3
-add max-limit=5M name=WEB-DL         packet-mark=DL-Web       parent=Trafic-Entrant priority=3
-add max-limit=5M name=WEB-UP         packet-mark=UP-Web       parent=Trafic-Sortant priority=3
-add max-limit=1M name=AUTRE-DL       packet-mark=DL-AUTRE     parent=Trafic-Entrant priority=3
-add max-limit=1M name=AUTRE-UP       packet-mark=UP-Autre     parent=Trafic-Sortant priority=3
-add max-limit=1M add name=SNMP-DL    packet-mark=DL-SNMP      parent=Trafic-Entrant priority=3
-add max-limit=1M add name=SNMP-UP    packet-mark=UP-SNMP      parent=Trafic-Sortant priority=3
 
 # =================================================================================================================================================================================
 /user group
@@ -97,6 +84,30 @@ add action=masquerade chain=srcnat comment=Speedtest                 dst-port=80
 add action=masquerade chain=srcnat comment="Ping vers Passerelle"    dst-address=192.168.200.1 log-prefix="[GW] " out-interface=ether1-wan protocol=icmp
 add action=masquerade chain=srcnat comment=SNMP                      dst-port=161 log=yes log-prefix="[SNMP] "                             protocol=tcp
 add action=masquerade chain=srcnat comment=NAT                       disabled=yes out-interface=ether1-wan
+
+# =================================================================================================================================================================================
+/queue tree
+add              name=Network                                 parent=global         priority=1
+add              name=Trafic-Entrant                          parent=Network        priority=2
+add              name=Trafic-Sortant                          parent=Network        priority=2
+add max-limit=5M name=SPEEDTEST-DL   packet-mark=DL-Speedtest parent=Trafic-Entrant priority=3
+add max-limit=5M name=SPEEDTEST-UP   packet-mark=UP-Speedtest parent=Trafic-Sortant priority=3
+add max-limit=5M name=WEB-DL         packet-mark=DL-Web       parent=Trafic-Entrant priority=3
+add max-limit=5M name=WEB-UP         packet-mark=UP-Web       parent=Trafic-Sortant priority=3
+add max-limit=1M name=AUTRE-DL       packet-mark=DL-AUTRE     parent=Trafic-Entrant priority=3
+add max-limit=1M name=AUTRE-UP       packet-mark=UP-Autre     parent=Trafic-Sortant priority=3
+add max-limit=1M add name=SNMP-DL    packet-mark=DL-SNMP      parent=Trafic-Entrant priority=3
+add max-limit=1M add name=SNMP-UP    packet-mark=UP-SNMP      parent=Trafic-Sortant priority=3
+
+
+
+
+
+
+
+
+
+
 
 # =================================================================================================================================================================================
 /ip firewall service-port
