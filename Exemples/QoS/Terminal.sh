@@ -99,22 +99,6 @@ add max-limit=1M add name=SNMP-DL    packet-mark=DL-SNMP      parent=Trafic-Entr
 add max-limit=1M add name=SNMP-UP    packet-mark=UP-SNMP      parent=Trafic-Sortant priority=3
 
 
-
-
-
-
-
-
-
-
-
-# =================================================================================================================================================================================
-/ip firewall service-port
-set ftp  disabled=yes
-set rtsp disabled=no
-set sip  disabled=yes
-set tftp disabled=yes
-
 # =================================================================================================================================================================================
 /ip route
 add disabled=no distance=1 dst-address=0.0.0.0/0 gateway=192.168.200.1 pref-src="" routing-table=main scope=30 suppress-hw-offload=yes target-scope=10
