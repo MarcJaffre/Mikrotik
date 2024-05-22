@@ -3,6 +3,10 @@
 On peux manipuler que sur le flux entrant d'un routeur !
 ```
 
+```
+Source > Prerouting > Forward > Postrouting > Destination
+```
+
 ### Filter
 ```
 - Input       : Entrée du Firewall
@@ -18,8 +22,9 @@ On peux manipuler que sur le flux entrant d'un routeur !
 
 ### QoS
 ```
-Prerouting = Envoie         = On limite le flux lorsqu'il entre dans le routeur
-Forward    = Téléchargement = Le flux viens de l'extérieur, on manipule lorsqu'il passe entre le WAN et le LAN.
+Upload   : On manipule sur les flux entrants du routeur. ==> Prerouting
+Download : On manipule sur les flux entrants du routeur. ==> Forward 
 ```
 
 
+![image](https://github.com/MarcJaffre/Mikrotik/assets/35907/b6dd4123-30cd-4cd9-88fa-8f4a5dd71913)
