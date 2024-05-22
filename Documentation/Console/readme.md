@@ -47,22 +47,26 @@ add address=3.fr.pool.ntp.org
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### III. Sécurisation de l'équipement
-#### A. Création d'un utilisation 
+#### A. Utilisateur, Groupes
+##### 1. Définir une politique de sécurité des mots de passe
+```bash
+/user settings
+set minimum-password-length=4
+```
+##### 2. Edition des permissions
+```
+/user group
+set full policy="local,telnet,ssh,ftp,reboot,read,write,policy,test,winbox,password,web,sniff,sensitive,!api,!romon,!rest-api"
+```
+##### 3. Création d'un utilisateur
 ```bash
 /user
 add name="marc"    group="full" password="admin" comment="Marc Jaffre" address="192.168.150.0/24, 192.168.180.0/24, 192.168.20.0/24"
 ```
-
-#### B. Suppression Utilisateur admin
+##### 4. Suppression Utilisateur admin
 ```bash
 /user
 remove admin
-```
-
-#### C. Edition des permissions
-```
-/user group
-set full policy="local,telnet,ssh,ftp,reboot,read,write,policy,test,winbox,password,web,sniff,sensitive,!api,!romon,!rest-api"
 ```
 
 #### D. Configuration des services
@@ -90,8 +94,19 @@ set allowed-interface-list=none
 set enabled=no
 ```
 
-#### F. XXXX
+#### F. Autres
 ```
+/interface wireless security-profiles
+set [ find default=yes ] supplicant-identity=MikroTik
+
+/ip firewall connection tracking
+set udp-timeout=10s
+
+/snmp
+set enabled=no trap-version=2
+
+/snmp community
+set [ find default=yes ] write-access=yes
 ```
 
 
@@ -135,9 +150,16 @@ add name=DMZ ranges=192.168.240.2-192.168.240.10
 
 ##### 2. Network
 ```bash
+/ip dhcp-server network
+add address=192.168.220.0/24 dns-server=192.168.220.1,8.8.8.8 domain=LAN.LOCAL gateway=192.168.220.1 netmask=24
+add address=192.168.240.0/24 dns-server=192.168.240.1,8.8.8.8 domain=DMZ.LOCAL gateway=192.168.240.1 netmask=24
+```
+##### 3. Activation du DHCP
+```bash
 /ip dhcp-server
 add add-arp=yes address-pool=LAN interface=ether2-lan name=DHCP_LAN
 add add-arp=yes address-pool=DMZ interface=ether3-dmz name=DHCP_DMZ
+
 ```
 
 #### E. Pare-Feu
