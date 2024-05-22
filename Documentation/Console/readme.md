@@ -10,7 +10,7 @@
 ### II. Sécurisation de l'équipement
 
 #### X. Configuration des services
-```
+```bash
 /ip service
 set telnet  disabled=yes
 set ftp     disabled=yes
@@ -23,13 +23,13 @@ set www-ssl disabled=yes
 ```
 
 #### X. Mac Servers
-```
+```bash
 /tool mac-server
 set allowed-interface-list=none
 ```
 
 #### X. Mac Servers ping
-```
+```bash
 /tool mac-server ping
 set enabled=no
 ```
