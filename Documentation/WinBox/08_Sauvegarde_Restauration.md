@@ -9,7 +9,7 @@ Menu de sélection `Files` > `Backup`. La méthode suivante ne permet pas de voi
 <br />
 
 #### B. Création de la sauvegarde en clair
-Menu de sélection `New Terminal` > `export file=Backup_001`. La sauvegarde en clair permet une fois télécharger, de pouvoir visuellement voir les commandes en format texte.
+Menu de sélection `New Terminal` > `export show-sensitive file=Backup_001`. La sauvegarde en clair permet une fois télécharger, de pouvoir visuellement voir les commandes en format texte.
 
 Ceci permet de pouvoir vérifier les paramètres à post déploiement .
 
