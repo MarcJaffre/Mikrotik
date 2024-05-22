@@ -7,7 +7,60 @@
 <br />
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-### II. Base
+### II. Sécurisation de l'équipement
+
+#### X. Configuration des services
+```
+/ip service
+set telnet  disabled=yes
+set ftp     disabled=yes
+set ssh     disabled=yes
+set api     disabled=yes
+set api-ssl disabled=yes
+set winbox  address=192.168.150.0/24,192.168.180.0/24,192.168.200.0/24
+set www     address=192.168.150.0/24,192.168.180.0/24,192.168.200.0/24
+set www-ssl disabled=yes
+```
+
+#### X. Mac Servers
+```
+/tool mac-server
+set allowed-interface-list=none
+```
+
+#### X. Mac Servers ping
+```
+/tool mac-server ping
+set enabled=no
+```
+
+#### X. Edition des permissions
+```
+/user group
+set full policy="local,telnet,ssh,ftp,reboot,read,write,policy,test,winbox,password,web,sniff,sensitive,!api,!romon,!rest-api"
+```
+
+#### X. Création d'un utilisation 
+```
+/user
+add name="marc"    group="full" password="admin" comment="Marc Jaffre" address="192.168.150.0/24, 192.168.180.0/24, 192.168.20.0/24"
+```
+
+#### X. Suppression Utilisateur admin
+```
+/user
+remove admin
+```
+
+<br />
+
+
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### III. Avancés
 #### A. Interfaces
 ##### 1. Renommer les Interfaces
 ```
@@ -59,11 +112,6 @@ add action=masquerade chain=srcnat comment=DNS                       dst-port=53
 add action=masquerade chain=srcnat comment=Speedtest                 dst-port=8080                                out-interface=ether1-wan protocol=tcp
 add action=masquerade chain=srcnat comment="Ping vers Passerelle"    dst-address=192.168.200.1 log-prefix="[GW] " out-interface=ether1-wan protocol=icmp
 ```
-
-
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-### III. Avancés
-
 
 #### X. Services
 ```
