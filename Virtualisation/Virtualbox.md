@@ -47,11 +47,11 @@ L'adapateur 1 aura pour rôle d'être le WAN de mon routeur et il aura une IP su
 
 L'adapateur 2 aura pour rôle d'être le LAN.
 
-![LAN](https://github.com/MarcJaffre/Mikrotik/assets/35907/c8fac2f1-8ad7-4fe2-8327-38c66c0e53aa)
+![LAN](https://github.com/MarcJaffre/Mikrotik/assets/35907/efcc7b16-b7db-4cb3-890e-ea5e5a84133f)
 
 L'adapateur 3 aura pour rôle d'être la DMZ.
 
-![DMZ](https://github.com/MarcJaffre/Mikrotik/assets/35907/a242ddaa-2bee-456f-8bf0-25d2ad547358)
+![DMZ](https://github.com/MarcJaffre/Mikrotik/assets/35907/a2d8b3ae-0475-4f55-9188-a55e023f8e4a)
 
 
 #### 4. USB
