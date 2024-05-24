@@ -80,3 +80,9 @@ Ensuite l'équipement est prêt à être configurer.
 
 ![Login](https://github.com/MarcJaffre/Mikrotik/assets/35907/7837e6cd-53c6-489f-8856-ea023bcbb536)
 
+<br />
+
+### B. Connexion
+Pour se connecter, il suffit d'avoir télécharger Winbox et faire de faire de la découverte de voisinage.
+
+Utiliser l'adresse MAC pour se connecter
