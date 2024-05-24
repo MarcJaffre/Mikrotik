@@ -68,10 +68,15 @@ A voir si c'est utile
 ---------------------------------------------------------------------------------------------------------------------------------------------
 ## II. Installation du routeur Mikrotik
 ### A. Installation du système
-Il suffit de presser la touche `i` puis de répondre à la question par `y` .
+Il suffit de presser la touche `i` puis de répondre à la question par `y`, ensuite il suffit d'éjecter le CDROM et de redémarrer la Machine Virtuelle.
+
+Ensuite l'équipement est prêt à être configurer.
 
 ![Press_I](https://github.com/MarcJaffre/Mikrotik/assets/35907/a22927cf-74cd-41fd-8509-2e73908213b0)
 
-
 ![Press_y](https://github.com/MarcJaffre/Mikrotik/assets/35907/db15058d-2c29-49fa-80f6-4cb2241c85d2)
+
+![Press_Reboot](https://github.com/MarcJaffre/Mikrotik/assets/35907/bc350386-83e3-4c70-8a38-26c030c630e6)
+
+![Login](https://github.com/MarcJaffre/Mikrotik/assets/35907/7837e6cd-53c6-489f-8856-ea023bcbb536)
 
