@@ -63,4 +63,15 @@ La fonction USB nest pas utile, il est recommande de le désactiver.
 A voir si c'est utile
 
 
+<br />
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+## II. Installation du routeur Mikrotik
+### A. Installation du système
+Il suffit de presser la touche `i` puis de répondre à la question par `y` .
+
+![Press_I](https://github.com/MarcJaffre/Mikrotik/assets/35907/a22927cf-74cd-41fd-8509-2e73908213b0)
+
+
+![Press_y](https://github.com/MarcJaffre/Mikrotik/assets/35907/db15058d-2c29-49fa-80f6-4cb2241c85d2)
 
