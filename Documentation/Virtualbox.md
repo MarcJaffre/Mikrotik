@@ -34,7 +34,8 @@ Décocher le Lecteur Disquette au démarrage et cocher la fonction `VT-x/AMD-V` 
 ![Imbrication](https://github.com/MarcJaffre/Mikrotik/assets/35907/de616445-dcce-400f-8c83-3fc5afa3757d)
 
 #### 2. Son
-La fonction son est inutile sur un routeur, désactiver le son.
+La fonction Son nest pas utile, il est recommande de le désactiver.
+
 ![Son](https://github.com/MarcJaffre/Mikrotik/assets/35907/7b88cb4d-20be-4aca-a8b8-b47fa9ee487e)
 
 #### 3. Réseau
@@ -51,6 +52,15 @@ L'adapateur 2 aura pour rôle d'être le LAN.
 L'adapateur 3 aura pour rôle d'être la DMZ.
 
 ![DMZ](https://github.com/MarcJaffre/Mikrotik/assets/35907/a242ddaa-2bee-456f-8bf0-25d2ad547358)
+
+
+#### 4. USB
+La fonction USB nest pas utile, il est recommande de le désactiver.
+
+![USB](https://github.com/MarcJaffre/Mikrotik/assets/35907/59590ddb-5600-4bea-9a55-9ad07f81f5ba)
+
+#### 5. Dossiers Partagés
+A voir si c'est utile
 
 
 
