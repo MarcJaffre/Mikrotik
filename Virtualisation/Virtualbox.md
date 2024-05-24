@@ -86,3 +86,8 @@ Ensuite l'équipement est prêt à être configurer.
 Pour se connecter, il suffit d'avoir télécharger Winbox et faire de faire de la découverte de voisinage.
 
 Utiliser l'adresse MAC pour se connecter
+
+<br />
+
+### C. Recommandation
+Je recomandes de réaliser un instantannée ce qui permettra de reset sans problème l'équipement.
