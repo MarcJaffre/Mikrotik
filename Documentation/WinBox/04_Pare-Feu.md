@@ -26,84 +26,57 @@ Menu de sélection `IP` > `Firewall` > `NAT` > `+`. La règle suivante permet à
 
 <img src='https://github.com/Drthrax74/Mikrotik/assets/35907/d7519170-c70a-40a9-8238-17940894200d' />
 
-
-<br />
-
-#### B. Création d'une règle NAT par Zone
-##### 1. LAN
-Permet au LAN d'avoir tous les ports en sortie ouverts.
-```
-Chain          : srcnat
-src Address    : 192.168.220.0/24
-Out. Interface : WAN
-Action         : Masquerade
-```
-
-![image](https://github.com/Drthrax74/Mikrotik/assets/35907/14eefcf2-5e84-4191-8c64-235eddf0433f)
-
-##### 2. WAN
-Permet au LAN d'avoir tous les ports en sortie ouverts.
-```
-Chain          : srcnat
-src Address    : 192.168.240.0/24
-Out. Interface : WAN
-Action         : Masquerade
-```
-![image](https://github.com/Drthrax74/Mikrotik/assets/35907/2723bfe0-3ee3-4dc1-9130-f70cf05123a3)
-
-
-
-#### C. Création d'une règle NAT par Zone avec Filtrage de Port
-Permet de filtrer les ports sortants autorisés avec du filtrage réseaux. On aurait pu définir une IP au lieu d'un réseau.
-##### 1. LAN, DMZ
-```
-Chain          : srcnat
-src Address    : 192.168.220.0/24 | 192.168.240.0/24
-Protocol       : TCP
-Dst Port       : 53,80,443
-Out. Interface : WAN
-Action         : Masquerade
-Log            : Cocher
-Log Prefix     : [NAVIGATION] 
-COMMENT        : Web (TCP)
-```
-
-```
-Chain          : srcnat
-src Address    : 192.168.220.0/24 | 192.168.240.0/24
-Protocol       : UDP
-Dst Port       : 53
-Out. Interface : WAN
-Action         : Masquerade
-Log            : Cocher
-Log Prefix     : [NAVIGATION] 
-COMMENT        : Web (UDP)
-```
-
-
-```
-Chain          : srcnat
-src Address    : 192.168.220.0/24 | 192.168.240.0/24
-Dist Address   : 192.168.200.1
-Protocol       : ICMP
-Out. Interface : WAN
-Action         : Masquerade
-Log            : Cocher
-Log Prefix     : [ICMP]
-COMMENT        : Ping vers Passerelle
-```
-
-![image](https://github.com/Drthrax74/Mikrotik/assets/35907/1464e7aa-cd1a-4de8-9b3f-156bc78ba474)
-
-
-
 <br />
 
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-### III. Bloquer la communication Inter-Zone
-#### A. LAN vers DMZ
-Il faut créer une règle de Filtrage utilisant la chaine `Input`, remplir le champs ` Dst. address` et choisir l'interface `LAN`.
+### II. Filter Rules
+#### A. Address Lists
+Pour simplifier la gestion, l'utilisation de Liste permet de simplifier la gestion du Pare-feu
 
-Puis choisir en action `Drop`.
+#### B. Règles de base
+Par défaut le Pare-feu bloque par les ports en sortie et ne bloque pas les communications entre lan.
+##### 1. WinBox
+Pour éviter de se bloquer, il faut faire la règle suivante. En cas de blocage accéder depuis l'adresse MAC.
+```
+Chain          : Input
+Protocol       : TCP
+Any. Port      : 80,443,8291
+Action         : Accept
+IN. Interface  : LAN
+```
 
+##### 2. Surf Internet
+```
+Chain          : Forward
+Protocol       : TCP
+Any. Port      : 53,80,443
+Action         : Accept
+
+Chain          : Forward
+Protocol       : UDP
+Any. Port      : 53
+Action         : Accept
+```
+
+##### 3. Ping Routeur
+```
+Chain          : Forward
+Dest. Address  : 192.168.0.1
+Protocol       : ICMP
+Action         : Accept
+```
+
+##### 4. SpeedTest
+```
+Chain          : Forward
+Protocol       : TCP
+Any. Port      : 8080
+Action         : Accept
+```
+
+##### 5. Blocage de port
+```
+Chain          : Output
+Action         : Drop
+```
