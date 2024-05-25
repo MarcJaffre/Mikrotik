@@ -35,3 +35,8 @@ Menu de sélection `PPP` > `Interface` > `Secret` > `+`.
 #### C. Connexion
 Il ne reste plus qu'à se connecter sur le VPN
 
+#### D. Afficher les connexions actifs
+![Active_Connections](https://github.com/MarcJaffre/Mikrotik/assets/35907/3ce44083-f6b1-419f-8a47-286b2d8640a6)
+
+
+
