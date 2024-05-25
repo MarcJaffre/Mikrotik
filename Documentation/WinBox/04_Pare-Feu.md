@@ -41,7 +41,7 @@ Pour éviter de se bloquer, il faut faire la règle suivante. En cas de blocage 
 ```
 Chain          : Input
 Protocol       : TCP
-Any. Port      : 80,443,8291
+Any. Port      : 8291
 Action         : Accept
 IN. Interface  : LAN
 ```
