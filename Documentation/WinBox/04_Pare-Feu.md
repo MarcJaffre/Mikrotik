@@ -93,5 +93,17 @@ Log Prefix     : [ICMP]
 COMMENT        : Ping vers Passerelle
 ```
 
-
 ![image](https://github.com/Drthrax74/Mikrotik/assets/35907/1464e7aa-cd1a-4de8-9b3f-156bc78ba474)
+
+
+
+<br />
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### III. Bloquer la communication Inter-Zone
+#### A. LAN vers DMZ
+Il faut créer une règle de Filtrage utilisant la chaine `Input`, remplir le champs ` Dst. address` et choisir l'interface `LAN`.
+
+Puis choisir en action `Drop`.
+
