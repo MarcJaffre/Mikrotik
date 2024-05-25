@@ -3,8 +3,21 @@
 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
-### I. VPN PPTP
+### I. Présentation
+#### A. Procédure de création du VPN
+Les VPN PPTP, L2TP ont toujours la même procédure.
+```
+- Création d'un Pool (192.168.100.2-192.168.100.20)
+- Activation du SERVER via le menu PPP
+- Création d'un Profil (IP : 192.168.100.1 + DNS 8.8.8.8)
+- Création d'un utilisateur utilisant le profil
+- Connexion
+```
 
+<br />
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+### II. Création d'un VPN
 
 #### A. Création du Pool VPN
 Menu de sélection `IP` > `Pool` > `+`. Le pool doit exclure 1 IP qui sera celle utilisé par le serveur.
