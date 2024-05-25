@@ -19,7 +19,7 @@ Menu de sélection `PPP` > `Interface` > `PPTP Server` > `Enabled`.
 ##### 2. Ajout d'un Profile
 Menu de sélection `PPP` > `Interface` > `Profiles` > `+`.
 
-![PPP_Profil_Page_1](https://github.com/MarcJaffre/Mikrotik/assets/35907/180cc187-2bea-4141-aca4-a5c5997a673e)
+![PPP_Profil_Page_1](https://github.com/MarcJaffre/Mikrotik/assets/35907/fb89174e-1201-4c6f-b2b0-968cce295d4e)
 
 
 ![PPP_Profil_Page_2](https://github.com/MarcJaffre/Mikrotik/assets/35907/a9279bcb-4867-4be0-a0d2-e8b3e19a2e76)
