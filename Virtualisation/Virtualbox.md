@@ -3,6 +3,11 @@
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
 ## I. Création de la Machine Virtuelle
+
+![TASKMGR](https://github.com/MarcJaffre/Mikrotik/assets/35907/f9f56858-27b7-4802-9c4a-72b377af39d3)
+
+<br />
+
 ### A. Télécharge
 Il faut se rendre sur le site de Mikrotik, puis aller dans Download.
 
