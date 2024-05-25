@@ -52,6 +52,13 @@ Menu de sélection `PPP` > `Interface` > `Secret` > `+`.
 
 <br />
 
+##### 4. Activation du serveur VPN (A Valider)
+
+![image](https://github.com/MarcJaffre/Mikrotik/assets/35907/84d31836-3264-43d6-873a-7aba6b6c4dfb)
+
+
+<br />
+
 #### C. Connexion
 Il ne reste plus qu'à se connecter sur le VPN
 
