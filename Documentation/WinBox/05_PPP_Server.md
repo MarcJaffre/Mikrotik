@@ -9,7 +9,7 @@ Le routeur PPPoe-server dispose d'une interface WAN et une interface LAN.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### II. Création d'un PPPoe Server
 #### A. Création d'un Pont
-Menu `Bridge` puis `+` et indiquer comme nom `PPPoe`.
+Menu `Bridge` puis `+` et indiquer comme nom `pppoe`.
 
 ![image](https://github.com/user-attachments/assets/31dad8af-b358-4d5c-b45a-479801747716)
 
@@ -46,4 +46,8 @@ Menu `IP` puis `Pool` et cliquer sur `+`.
 #### D. Création du PPPoe Serveur
 Menu `PPP` puis dans l'onglet `PPPoe Server` et `+`. (/!\ Ne pas cliquer sur le `+` dans l'onglet `Interface`)
 
-
+```
+Service Name         : Client1
+Interface            : pppoe
+One Session per Host : Cocher
+```
