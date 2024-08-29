@@ -29,3 +29,12 @@ Menu `Bridge` puis `Ports` et cliquer sur `+`. Sélectionner l'interface qu'on s
 Menu `IP` puis `Pool` et cliquer sur `+`.
 
 ![image](https://github.com/user-attachments/assets/fbd80e5a-478d-4de0-b27a-34165d25bf5f)
+
+#### C. Création du masquerade
+
+![image](https://github.com/user-attachments/assets/0ba71af1-b28f-425c-9336-828afb158353)
+
+![image](https://github.com/user-attachments/assets/067ba9f4-4e15-41ed-bba8-f12b0fdde608)
+
+
+![image](https://github.com/user-attachments/assets/706b3891-921b-4e63-ada7-45bcee2d0880)
