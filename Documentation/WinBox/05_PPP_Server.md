@@ -18,7 +18,7 @@ Menu `Bridge` puis `+` et indiquer comme nom `PPPoe`.
 <br />
 
 #### B. Attacher une interface au pont
-Menu `Bridge` puis `Ports` et cliquer sur `+`. Sélectionner l'interface qu'on souhaite rattacher au Pont PPPoe.
+Menu `Bridge` puis dans l'onglet `Ports` et cliquer sur `+`. Sélectionner l'interface qu'on souhaite rattacher au Pont PPPoe.
 
 ![image](https://github.com/user-attachments/assets/c8233f9a-668c-46b2-b520-0b51bc4675fd)
 
@@ -44,7 +44,6 @@ Menu `IP` puis `Pool` et cliquer sur `+`.
 <br />
 
 #### D. Création du PPPoe Serveur
-Menu `PPP`
-
+Menu `PPP` puis dans l'onglet `PPPoe Server` et `+`. (/!\ Ne pas cliquer sur le `+` dans l'onglet `Interface`)
 
 
