@@ -57,6 +57,8 @@ Le profil permet de définir le débit accordé au client.
 ![image](https://github.com/user-attachments/assets/ffcf40c8-9f19-4423-a1ee-17f05a7ca7b6)
 
 ##### 3. Secrets
+Aller dans l'onglet `Secrets` et `+`. (Mdp : 1234)
 
+![image](https://github.com/user-attachments/assets/b974178f-e56c-48cd-afb5-66788e52c98f)
 
 
