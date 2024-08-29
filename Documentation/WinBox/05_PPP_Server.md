@@ -24,3 +24,8 @@ Menu `Bridge` puis `Ports` et cliquer sur `+`. Sélectionner l'interface qu'on s
 ![image](https://github.com/user-attachments/assets/c8233f9a-668c-46b2-b520-0b51bc4675fd)
 
 ![image](https://github.com/user-attachments/assets/572b2511-efdb-4e86-a821-227ee40ca0d7)
+
+#### C. Création d'un Pool DHCP pour le PPPoE
+Menu `IP` puis `Pool` et cliquer sur `+`.
+
+![image](https://github.com/user-attachments/assets/fbd80e5a-478d-4de0-b27a-34165d25bf5f)
