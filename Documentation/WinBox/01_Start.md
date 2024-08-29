@@ -51,7 +51,7 @@ Dans le champs `Servers` indiquer les serveurs DNS.
 
 Pour ajouter un autre serveur DNS, il suffit de faire la flèche vers le bas à droite de `Servers`
 
-**Allow Remote Requests** doit être COCHER pour permettre au routeur de répondre au dequête DNS qu'il reçois.
+**Allow Remote Requests** doit être COCHER pour permettre au routeur de répondre aux requêtes DNS qu'il reçois.
 
 <br />
 
