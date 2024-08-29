@@ -44,27 +44,19 @@ Menu `IP` puis `Pool` et cliquer sur `+`.
 <br />
 
 #### D. PPP
-Menu `PPP`.
 ##### 1. Création du PPPoe Serveur
 Aller dans l'onglet `PPPoe Server` et `+`. (/!\ Ne pas cliquer sur le `+` dans l'onglet `Interface`)
 
-```
-Service Name         : Client1
-Interface            : pppoe
-One Session per Host : Cocher
-```
+![image](https://github.com/user-attachments/assets/2c989619-dca2-468e-82d9-545a7e179a40)
 
 ##### 2. Profil
 Le profil permet de définir le débit accordé au client.
-```
-[General]
-Name           : 10 Mega / 1 Mega
-Local Address  : 192.168.20.1
-Remote Address : POOL_PPPOE
-DNS Server     : 192.168.20.1
 
-[Limits]
-Rate Limite    : 10M/1M  (10 Mega en reception / 1 Mega en Envoi) 
-```
+![image](https://github.com/user-attachments/assets/79d3f81b-d459-4ae3-92f3-4d251f713baf)
+
+![image](https://github.com/user-attachments/assets/ffcf40c8-9f19-4423-a1ee-17f05a7ca7b6)
+
+##### 3. Secrets
+
 
 
