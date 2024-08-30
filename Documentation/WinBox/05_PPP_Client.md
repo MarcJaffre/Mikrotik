@@ -42,10 +42,12 @@ Menu de sélection `IP` > `Firewall` > `NAT`. Dans l'exemple suivant aucun filtr
 - Action         : Masquerade
 ```
 
+##### 3. Création de la route
+Menu de sélection `IP` > `Routes` et `+`. Indiquer l'adresse de la passerelle et une distance. Le lien internet avec la distance la plus faible sera prioritaire (1 étant la valeur la plus petite)
 
 
 
-##### 3. Vérification
+##### 4. Vérification
 Menu de sélection `IP` > `Addresses` pour vérifier si une IP est fournis. (DHCP requis côté FAI)
 
 Menu de sélection `IP` > `Routes` pour vérifier si une route est fournis. (DHCP requis côté FAI)
