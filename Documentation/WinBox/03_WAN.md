@@ -41,11 +41,12 @@ L'adresse `0.0.0.0/0` symbolise l'ensemble des réseaux inconnus (Internet) et l
 
 <img src='https://github.com/Drthrax74/Mikrotik/assets/35907/7aae00c1-52e2-4f6f-963d-a1b5d480a359' />
 
-
+#### C. DHCP Client
+Supprimer la fonction DHCP Client
 <br />
 <br />
 
-#### C. Vérification du fonctionnement du routeur
+#### D. Vérification du fonctionnement du routeur
 Le `ping 8.8.8.8` permet de vérifier l'interconnexion et le `ping google.fr` la résolution de NOM (DNS) .
 
 <img src='https://github.com/Drthrax74/Mikrotik/assets/35907/f5f97f35-da5b-4a0e-8cb8-6e26f041a06b' />
