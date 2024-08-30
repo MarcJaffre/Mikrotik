@@ -47,6 +47,8 @@ Menu `IP` puis `Pool` et cliquer sur `+`.
 ##### 1. Création du PPPoe Serveur
 Aller dans l'onglet `PPPoe Server` et `+`. (/!\ Ne pas cliquer sur le `+` dans l'onglet `Interface`)
 
+**Remplisser l'adresse de la passerelle !!**
+
 ![image](https://github.com/user-attachments/assets/2c989619-dca2-468e-82d9-545a7e179a40)
 
 ##### 2. Profil
