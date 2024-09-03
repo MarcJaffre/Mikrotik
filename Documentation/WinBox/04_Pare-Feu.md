@@ -16,7 +16,7 @@ Toute requête sur un réseau inconnu va sur la passerelle 192.168.200.1.
 
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-### II. Internet (Expérimental)
+### II. Internet
 Pour permettre l'accès à internet, il faut créer une règle NAT. La règle est de type sortante, sur le port WAN et l'IP publique (IP WAN) sera celle utilisé dans le cas présent.
 
 #### A. Création d'une Règle NAT Globale
@@ -32,7 +32,7 @@ Menu de sélection `IP` > `Firewall` > `NAT` > `+`. La règle suivante permet à
 
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-### II. Filter Rules
+### II. Filter Rules (Expérimental)
 #### A. Address Lists
 Pour simplifier la gestion, l'utilisation de Liste permet de simplifier la gestion du Pare-feu
 
