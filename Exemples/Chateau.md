@@ -20,7 +20,7 @@
 
 ## D. LAN
 ### L2TP
-### PPoE
+### PPPoE
 
 ## E. Certificats
 #### Autorité de certification
