@@ -38,3 +38,31 @@
    - Allowed Address : Une IP dans le sous-réseau de l'interface (ex: `192.168.77.2/32`)
    - Public Key : Laissez vide pour l'instant
 4. Cliquez sur OK
+
+
+
+## 2. Configuration du client Windows
+
+### 2.1 Installation de WireGuard
+
+1. Téléchargez et installez l'application WireGuard depuis le [site officiel](https://www.wireguard.com/install/)
+
+### 2.2 Configuration du client
+
+1. Ouvrez l'application WireGuard
+2. Cliquez sur "Add Tunnel" puis "Add Empty Tunnel"
+3. Donnez un nom au tunnel (ex: `Mikrotik-VPN`)
+4. Copiez la clé publique générée
+
+### 2.3 Finalisation de la configuration du serveur
+
+1. Retournez dans Winbox
+2. Allez dans WireGuard > Peers
+3. Éditez le peer créé précédemment
+4. Collez la clé publique du client dans le champ "Public Key"
+5. Cliquez sur OK
+
+### 2.4 Configuration du fichier client
+
+1. Dans l'application WireGuard sur Windows, éditez le fichier de configuration du tunnel
+2. Utilisez le modèle suivant en remplaçant les valeurs entre crochets :
