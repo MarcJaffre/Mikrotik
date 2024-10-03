@@ -1,4 +1,4 @@
-# Configuration d'un VPN WireGuard sur Mikrotik
+# Configuration d'un VPN WireGuard sur Mikrotik (Expérimental)
 
 ## 1. Configuration du serveur Mikrotik
 ### 1.1 Créer l'interface WireGuard
