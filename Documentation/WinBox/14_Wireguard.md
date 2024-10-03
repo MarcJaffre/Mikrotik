@@ -63,6 +63,16 @@
 5. Cliquez sur OK
 
 ### 2.4 Configuration du fichier client
-
 1. Dans l'application WireGuard sur Windows, éditez le fichier de configuration du tunnel
 2. Utilisez le modèle suivant en remplaçant les valeurs entre crochets :
+
+```
+[Interface]
+PrivateKey = [Clé privée du client]
+Address = 192.168.77.2/32
+DNS = 8.8.8.8
+[Peer]
+PublicKey = [Clé publique du serveur Mikrotik]
+AllowedIPs = 0.0.0.0/0
+Endpoint = [Adresse IP publique du routeur Mikrotik]:13231
+```
