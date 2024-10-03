@@ -65,7 +65,7 @@
 ### 2.4 Configuration du fichier client
 1. Dans l'application WireGuard sur Windows, éditez le fichier de configuration du tunnel
 2. Utilisez le modèle suivant en remplaçant les valeurs entre crochets :
-
+3. Sauvegardez le fichier de configuration
 ```
 [Interface]
 PrivateKey = [Clé privée du client]
@@ -76,3 +76,11 @@ PublicKey = [Clé publique du serveur Mikrotik]
 AllowedIPs = 0.0.0.0/0
 Endpoint = [Adresse IP publique du routeur Mikrotik]:13231
 ```
+
+
+### 2.5 Activation du VPN
+1. Dans l'application WireGuard sur Windows, activez le tunnel en cliquant sur le bouton d'activation
+
+## 3. Test de la connexion
+1. Vérifiez que vous pouvez accéder à Internet via le VPN
+2. Vérifiez que votre adresse IP publique a changé en utilisant un service comme [whatismyip.com](https://www.whatismyip.com/)
