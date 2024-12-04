@@ -38,6 +38,7 @@ Pour simplifier la gestion, l'utilisation de Liste permet de simplifier la gesti
 
 #### B. Règles de base
 Par défaut le Pare-feu bloque par les ports en sortie et ne bloque pas les communications entre lan.
+
 ##### 1. WinBox
 Pour éviter de se bloquer, il faut faire la règle suivante. En cas de blocage accéder depuis l'adresse MAC.
 ```
