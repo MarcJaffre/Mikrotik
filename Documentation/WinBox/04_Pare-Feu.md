@@ -83,3 +83,21 @@ Action         : Accept
 Chain          : Output
 Action         : Drop
 ```
+
+| Nom du service | Port     |
+| -------------- | -------- |
+| Winbox | 8291/tcp |
+| HTTP | 80/tcp |
+| HTTPS | 443/tcp |
+| Telnet | 23/tcp |
+| SSH | 22/tcp |
+| FTP | 21/tcp (contrôle) |
+| FTP | 20/tcp (données) |
+| API | 8728/tcp |
+| API-SSL | 8729/tcp |
+| SNMP | 161/udp |
+| DNS | 53 (tcp/udp) |
+| DHCP Serveur | 67/udp |
+| DHCP Client | 68/udp |
+| NTP | 123/udp4 |
+```
