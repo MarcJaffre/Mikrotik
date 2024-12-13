@@ -33,6 +33,33 @@ Menu de sélection `System` > `Users`. Ce menu permet la gestion des utilisateur
 10) Importer les clés SSH et liée à un utilisateur
 ```
 
+```
+Login Policies: (Droits de connexions) 
+• Local    : pour pouvoir accéder à la console en local.
+• Telnet   : permet la connexion distante via telnet (fortement déconseillé de se connecter via telnet).
+• SSH      : permet la connexion distante via ssh.
+• Web      : permet la connexion distante via le web.
+• Winbox   : permet la connexion distante via le client winbox.
+• Password : permet le changement du mot de passe.
+• API      : droits d’accès via une API.
+• Tikapp   : permet l’accès via l’application mobile au routeur mikrotik.
+• Dude     : permet les droits de connexion aux serveurs dude (serveur de supervision).
+• FTP      : permet la connexion distante via ftp.
+• RoMon    : permet de se connecter au serveur RoMon (Permet notamment que les paquets ne soientpas détectés par les sniffers)
+
+
+Config Policies: (Droits de configuration) 
+• Reboot    : Permet le reboot du routeur.
+• Read      : Permet la lecture de configuration. Toutes les commandes de console qui ne modifient pas la configuration.
+• Write     : Permet un accès en écriture à la configuration du routeur, à l’exception de la gestion des utilisateurs.
+            : Ce droit ne permet pas de lire la configuration, il faut donc activer également la politique  de lecture.
+• Policy    : Permet la gestion des utilisateurs (il faut activer le droit write et le droit test).
+• Test      : Permet d’exécuter les commandes suivantes : ping, traceroute, test de bande passante, analyse  sans fil, snooper et autres commandes de test.
+• Sensitive : permet de modifier “hide sensitive” pour masquer ou non les données sensibles.
+• Sniff     : permet de faire utiliser l’outil de capture «Packet Sniffer»
+```
+
+
 
 #### X. Services
 Menu de sélection `IP` > `Services`. On désactive tout service du routeur qu'on utilise pas pour diminuer le vecteur d'attaque.
