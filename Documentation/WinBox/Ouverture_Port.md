@@ -22,6 +22,7 @@ Les interfaces se nomme `WAN` et `LAN` .
 
 <br />
 
+#### C. SNMP (KO)
 
 La machine `192.168.200.12` est autorisé à envoyé sur le port `161/TCP` à l'hôte `192.168.200.50`
 ![image](https://github.com/Drthrax74/Mikrotik/assets/35907/305f47c0-205c-4a18-b3f5-a987ceb6597a)
