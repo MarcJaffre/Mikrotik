@@ -17,6 +17,8 @@ Les interfaces se nomme `WAN` et `LAN` .
 
 
 #### C. SNMP
+L'utilisation d'une `Src. Adresse List`.
+
 ![image](https://github.com/user-attachments/assets/bbd8774b-7be3-4695-9077-77544e009ee3)
 
 
