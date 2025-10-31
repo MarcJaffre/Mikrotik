@@ -17,5 +17,6 @@ Taper l'identifiant `admin` et taper `entrer` pour le mot de passe.
 
 ### D. Définir l'adresse IP en Static
 ```
-ip address/add address=192.168.0.6/24 interface=ether1
+/ip address add address=192.168.0.6/24 interface=ether1
+/ip dhcp-client disable ether1
 ```
