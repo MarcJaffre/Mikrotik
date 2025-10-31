@@ -17,7 +17,14 @@ Taper l'identifiant `admin` et taper `entrer` pour le mot de passe.
 
 <br />
 
-### D. WAN
+### D. Lister les interfaces
+```
+/interface print
+```
+
+<br />
+
+### D. Configurer le WAN
 #### 1. IP Statique
 ```
 /ip address add address=192.168.0.6/24 interface=ether1
@@ -27,3 +34,5 @@ Taper l'identifiant `admin` et taper `entrer` pour le mot de passe.
 ```
 /ip route add dst-address=0.0.0.0/0 gateway=192.168.0.1
 ```
+
+<br />
