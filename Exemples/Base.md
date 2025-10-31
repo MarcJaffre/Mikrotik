@@ -15,8 +15,15 @@ Le routeur aura 3 pattes : WAN, LAN et DMZ
 ### C. Se connecter
 Taper l'identifiant `admin` et taper `entrer` pour le mot de passe.
 
-### D. Définir l'adresse IP en Static
+<br />
+
+### D. WAN
+#### 1. IP Statique
 ```
 /ip address add address=192.168.0.6/24 interface=ether1
 /ip dhcp-client disable ether1
+```
+#### 2. Passerelle
+```
+/ip route add dst-address=0.0.0.0/0 gateway=192.168.0.1
 ```
