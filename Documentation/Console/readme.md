@@ -162,7 +162,6 @@ add address=192.168.240.0/24 dns-server=192.168.240.1,8.8.8.8 domain=DMZ.LOCAL g
 /ip dhcp-server
 add add-arp=yes address-pool=LAN interface=ether2-lan name=DHCP_LAN
 add add-arp=yes address-pool=DMZ interface=ether3-dmz name=DHCP_DMZ
-
 ```
 
 #### E. Pare-Feu
