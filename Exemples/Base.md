@@ -35,4 +35,10 @@ Taper l'identifiant `admin` et taper `entrer` pour le mot de passe.
 /ip route add dst-address=0.0.0.0/0 gateway=192.168.0.1
 ```
 
+#### 3. Reboot
+```
+/system reboot
+```
+
+
 <br />
